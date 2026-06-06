@@ -1,0 +1,11 @@
+Leah CGM Display Firmware v0.8.0
+
+Changes:
+- First OTA update test structure.
+- Prepares firmware version checking.
+- Prepares web-based update notification.
+- Future support for user-confirmed firmware download and install.
+
+Important:
+This display is a secondary CGM awareness and alert companion.
+It is not intended to replace the primary CGM app, receiver, or approved medical device.
