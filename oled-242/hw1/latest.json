@@ -2,12 +2,12 @@
   "product": "leah-cgm-display",
   "model": "oled-242",
   "hardware_rev": "hw1",
-  "latest_version": "0.10.10",
-  "build": 15,
+  "latest_version": "0.10.11",
+  "build": 16,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Changes the trend screen to 4 hours, optimises the top row so Wi-Fi bars do not overlap text, and keeps low/high limit lines plus time-in-range percentages.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.10.10/leah-cgm-display-oled-242-hw1-v0.10.10.bin",
-  "firmware_size": 1280224,
-  "sha256": "5777A64EB3D3DC958D15730D190B9388A4902D3C11D7480C6F7899D121F55377"
+  "release_notes": "Enlarges the 4-hour trend graph, stretches available data across the full plot width, improves top-row spacing, and increases trend request capacity.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.10.11/leah-cgm-display-oled-242-hw1-v0.10.11.bin",
+  "firmware_size": 1280192,
+  "sha256": "5277FB7F3DAA7F1BEDDA06212D031B8C83C3DB5E1EACF3EED5DC2F0C91E3BAD7"
 }
