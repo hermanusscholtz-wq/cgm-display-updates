@@ -8,6 +8,6 @@
   "mandatory": false,
   "release_notes": "Adds local webserver setup for Nightscout, patient/device identity, alarm limits, mute duration, alarm sound on/off, and saved settings.",
   "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.9.0/leah-cgm-display-oled-242-hw1-v0.9.0.bin",
-  "firmware_size": "1247808"
+  "firmware_size": 1247808,
   "sha256": "33500048238CBD1064A78DCCBFD8E18C84525DC47576289B953212C8C6B42738"
 }
