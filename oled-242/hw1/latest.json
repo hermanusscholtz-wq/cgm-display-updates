@@ -2,12 +2,12 @@
   "product": "leah-cgm-display",
   "model": "oled-242",
   "hardware_rev": "hw1",
-  "latest_version": "0.10.0",
-  "build": 5,
+  "latest_version": "0.10.2",
+  "build": 7,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Adds basic local webserver password protection, user-confirmed OTA update page, firmware size and SHA256 verification, safer update conditions, improved NO DATA and Wi-Fi Lost screens, and firmware update status on the web dashboard.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.10.0/leah-cgm-display-oled-242-hw1-v0.10.0.bin",
-  "firmware_size": 1268688,
-  "sha256": "B5806E0D4B0DF18F08B07AA766E579B026E51DB2D07B5FC14C82ECAF45AFEE86"
+  "release_notes": "Replaces the old alarm-limits OLED screen with diagnostics showing firmware, hardware, IP, Wi-Fi, Nightscout status, uptime/heap information, while keeping the main and 2-hour trend screens.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.10.2/leah-cgm-display-oled-242-hw1-v0.10.2.bin",
+  "firmware_size": 1274128,
+  "sha256": "EE684F8EB8750366EA98A2DCC10C49E56B0D6C87066B6D81D8AA9F3A3CB2D032"
 }
