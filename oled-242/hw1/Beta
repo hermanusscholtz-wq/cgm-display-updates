@@ -1,1 +1,14 @@
-
+{
+  "product": "leah-cgm-display",
+  "model": "oled-242",
+  "hardware_rev": "hw1",
+  "channel": "beta",
+  "latest_version": "0.11.2",
+  "build": 20,
+  "critical": false,
+  "mandatory": false,
+  "release_notes": "Beta/test build with beta selector enabled for Hermanus/home devices. Adds release-channel handling so beta devices read oled-242/hw1/beta/latest.json while commercial stable devices will later remain locked to stable.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.11.2-beta/leah-cgm-display-oled-242-hw1-v0.11.2-beta.bin",
+  "firmware_size": 1307120,
+  "sha256": "38DAFAF0173A44E48D9F14371E84A2E5EB733E4A6AA2A2B97314F204F35A7DB9"
+}
