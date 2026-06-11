@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.2-beta",
-  "build": 26,
+  "latest_version": "0.12.3-beta",
+  "build": 27,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Beta release removes DFR0782/Bluetooth audio and ACK workflow, adds Twilio WhatsApp alert-only repeat logic, Sensor Data screen with manual sensor tracking, and improved Twilio OLED status screen.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.2-beta/leah-cgm-display-oled-242-hw1-v0.12.2-beta.bin",
-  "firmware_size": 1325888,
-  "sha256": "3E2873582ADC21A85B7ADFA8FE04AD3F03739D54A4F39DF7C7295D8405E3CC82"
+  "release_notes": "Beta release based on v0.12.2 b26. Removes web audio/mute settings, improves sensor days/hours with Nightscout auto fallback, and remaps buttons for audio, screen cycle, and WhatsApp toggle.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.3-beta/leah-cgm-display-oled-242-hw1-v0.12.3-beta.bin",
+  "firmware_size": 1334384,
+  "sha256": "9B9CE111128EAF6FE5B3BACD72E396132ED617F55747D409F44B7B437337B2E6"
 }
