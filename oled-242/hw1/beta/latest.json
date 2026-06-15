@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.3-beta",
-  "build": 27,
+  "latest_version": "0.12.5-beta",
+  "build": 29,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Beta release based on v0.12.2 b26. Removes web audio/mute settings, improves sensor days/hours with Nightscout auto fallback, and remaps buttons for audio, screen cycle, and WhatsApp toggle.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.3-beta/leah-cgm-display-oled-242-hw1-v0.12.3-beta.bin",
-  "firmware_size": 1334384,
-  "sha256": "9B9CE111128EAF6FE5B3BACD72E396132ED617F55747D409F44B7B437337B2E6"
+  "release_notes": "Beta release based on v0.12.5 b29 compile-fix. Cleans up the WhatsApp webserver user interface with provider-specific hide/show panels, keeps the single provider dropdown, and retains API, Twilio, CallMeBot and TextMeBot alert support with per-alert timers, phone battery reminders and sensor-expiry reminders.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.5-beta/leah-cgm-display-oled-242-hw1-v0.12.5-beta.bin",
+  "firmware_size": 1384400,
+  "sha256": "225AB302CB9180BD136908FEF66E384B0135886D50EBC588F76223C03B2239E7"
 }
