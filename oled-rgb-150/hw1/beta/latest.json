@@ -1,1 +1,14 @@
-
+{
+  "product": "leah-cgm-display",
+  "model": "oled-rgb-150",
+  "hardware_rev": "hw1",
+  "channel": "beta",
+  "latest_version": "0.13.2-beta",
+  "build": 36,
+  "critical": false,
+  "mandatory": false,
+  "release_notes": "Beta release for Leah 2R 1.5-inch RGB OLED display. Nightscout stability update with Wi-Fi/Nightscout recovery improvements for the oled-rgb-150 branch.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.13.2-beta-oled-rgb-150/leah-cgm-display-oled-rgb-150-hw1-v0.13.2-beta.bin",
+  "firmware_size": 1391680,
+  "sha256": "19643B6DFDD7081F6D5B9FCD61098A5B696B64B957C747B15EF4EE22F78477B2"
+}
