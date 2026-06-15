@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.6-beta",
-  "build": 30,
+  "latest_version": "0.12.7-beta",
+  "build": 31,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Beta recovery patch based on v0.12.5 b29. Prevents WhatsApp provider HTTP calls from blocking Nightscout polling, adds Wi-Fi reconnect hardening, bounded provider response reads, cloud-alert cooldown and Nightscout failure recovery.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.6-beta/leah-cgm-display-oled-242-hw1-v0.12.6-beta.bin",
-  "firmware_size": 1385696,
-  "sha256": "7C6BF9C7EE936BE4E519AA5CFEB79BD0FEB38E320C9BBE77B165CD60568FEF10"
+  "release_notes": "Beta recovery patch based on v0.12.6 b30. Prevents WhatsApp provider HTTP calls from blocking Nightscout polling, adds Wi-Fi reconnect hardening, bounded provider response reads, cloud-alert cooldown and Nightscout failure recovery.",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.12.7-beta/leah-cgm-display-oled-242-hw1-v0.12.7-beta.bin",
+  "firmware_size": 1388560,
+  "sha256": "024B7DA78E397DE05D6570737D95C55451E5CEBBBECE1D1E34A14B90F07DFB79"
 }
