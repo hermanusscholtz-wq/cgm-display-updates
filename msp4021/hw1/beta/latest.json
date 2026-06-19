@@ -10,5 +10,5 @@
   "release_notes": "v0.13.45-beta build 86: header Wi-Fi/time polish; night urgency colours with red/black urgent-low mode; retains WhatsApp Wi-Fi guard and 4h trend changes.",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01345.bin",
   "firmware_size": 1488816,
-  "sha256": "93AF22334760F44633A172F5A908FE4B20DE5B56149B2EF7C3D0C0AC26F6FCF"
+  "sha256": "93AF22334760F44633A172F5A908FE4B20DE5B56149B2EF7C3D0C0AC26F6FCFD"
 }
