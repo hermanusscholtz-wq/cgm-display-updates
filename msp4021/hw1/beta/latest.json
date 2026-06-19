@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.50-beta",
-  "build": 91,
+  "latest_version": "0.13.54-beta",
+  "build": 95,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.50-beta build 91: adds Screen 7 Glucose + 1-Hour Live Trend layout with smaller glucose card and larger mini trend card.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01350.bin",
-  "firmware_size": 1503184,
-  "sha256": "BFDF5B58E831F74EC1B1424E117F50795F02FB0EB1856F2CBEBBCA9DA20F8503"
+  "release_notes": "v0.13.54-beta build 95: compile fix for Arduino-ESP32 3.3.10 by removing unsupported WiFiClientSecure setBufferSizes call while keeping fast OTA buffer/loop improvements.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01354.bin",
+  "firmware_size": 1504560,
+  "sha256": "416C327367B87A257106309F8782329D22BA30E861BF27F52B2B5C7A6DD351AE"
 }
