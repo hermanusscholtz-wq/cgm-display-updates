@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.47-beta",
-  "build": 88,
+  "latest_version": "0.13.49-beta",
+  "build": 90,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.47-beta build 88: bigger/bolder Leah 2R startup and Vision screens, held for 5 seconds each, with reduced startup flicker.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01347.bin",
-  "firmware_size": 1493616,
-  "sha256": "FD2B18BF26122287D62AA105014D43571A08657991AAFEAEBFDC067EDA450ED0"
+  "release_notes": "v0.13.49-beta build 90: fixed OTA progress screen with progress bar, cleaner web UI advanced sections, and main-screen update envelope icon.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01349.bin",
+  "firmware_size": 1498448,
+  "sha256": "088F0F54241B72ECED6C3B6B23190AEED967A6AB27B990F0FE3875EB305D5538"
 }
