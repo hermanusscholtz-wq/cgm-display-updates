@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.59-beta",
-  "build": 100,
+  "latest_version": "0.13.60-beta",
+  "build": 101,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.59-beta build 100: fixes local buzzer stop/silence behaviour, keeps buzzer master controlled by GPIO32 audio button, and converts Web UI setup areas into collapsible sections.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01359.bin",
-  "firmware_size": 1520080,
-  "sha256": "F9927624D3731DCD3BBF47C613F9473974C402DFC558DF866D02490D4F70BA53"
+  "release_notes": "v0.13.60-beta build 101: adds configurable Web buzzer mute duration and selectable Buzzer mute/status dashboard widget showing ON/OFF or remaining mute time.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01360.bin",
+  "firmware_size": 1521808,
+  "sha256": "B46AC23EDFDFF3D31E7C90942416DE35C6569792B2DD34D05E6A08F028B469C7"
 }
