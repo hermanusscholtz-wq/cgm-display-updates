@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.54-beta",
-  "build": 95,
+  "latest_version": "0.13.56-beta",
+  "build": 97,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.54-beta build 95: compile fix for Arduino-ESP32 3.3.10 by removing unsupported WiFiClientSecure setBufferSizes call while keeping fast OTA buffer/loop improvements.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01354.bin",
-  "firmware_size": 1504560,
-  "sha256": "416C327367B87A257106309F8782329D22BA30E861BF27F52B2B5C7A6DD351AE"
+  "release_notes": "v0.13.56-beta build 97: adds Advanced Web UI local buzzer sound selection and test buttons for the TMB12A03 active 3.3V buzzer on GPIO25.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01356.bin",
+  "firmware_size": 1516960,
+  "sha256": "7BB86D4F856FB458B3005310425DE853D2B4441565FD2E4F1F940FAB32BA3C03"
 }
