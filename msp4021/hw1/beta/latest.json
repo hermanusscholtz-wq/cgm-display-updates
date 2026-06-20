@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.62-beta",
-  "build": 103,
+  "latest_version": "0.13.63-beta",
+  "build": 104,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.62-beta build 103: fixes NO DATA screen flicker by using partial refresh for time, age, Wi-Fi, update envelope and status instead of full redraws.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01362.bin",
-  "firmware_size": 1524112,
-  "sha256": "27364BFA46536369E59969B05CFE0A86AE31CCB19BD7AA4D5ED9E51B84F94E67"
+  "release_notes": "v0.13.63-beta build 104: adds dedicated Buzzer mute timer widget and prioritizes mute countdown over ON/OFF status in Sound/Buzzer widgets.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01363.bin",
+  "firmware_size": 1525584,
+  "sha256": "59CD5C6DDDCD6042D268BA885F66E13CF5E76283B208373694878C7D636E468B"
 }
