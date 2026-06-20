@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.61-beta",
-  "build": 102,
+  "latest_version": "0.13.62-beta",
+  "build": 103,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.61-beta build 102: fixes NO DATA page so time, glucose age, Wi-Fi bars, update envelope and buzzer status keep refreshing dynamically.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01361.bin",
-  "firmware_size": 1521936,
-  "sha256": "944425EF6422016849F79741429F45E9BEF797D812A6EAC5AAB17B4D6B7724F1"
+  "release_notes": "v0.13.62-beta build 103: fixes NO DATA screen flicker by using partial refresh for time, age, Wi-Fi, update envelope and status instead of full redraws.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01362.bin",
+  "firmware_size": 1524112,
+  "sha256": "27364BFA46536369E59969B05CFE0A86AE31CCB19BD7AA4D5ED9E51B84F94E67"
 }
