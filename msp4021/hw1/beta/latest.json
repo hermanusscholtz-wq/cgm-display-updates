@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.56-beta",
-  "build": 97,
+  "latest_version": "0.13.58-beta",
+  "build": 99,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.56-beta build 97: adds Advanced Web UI local buzzer sound selection and test buttons for the TMB12A03 active 3.3V buzzer on GPIO25.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01356.bin",
-  "firmware_size": 1516960,
-  "sha256": "7BB86D4F856FB458B3005310425DE853D2B4441565FD2E4F1F940FAB32BA3C03"
+  "release_notes": "v0.13.58-beta build 99: adds Advanced Web UI local buzzer sound selection and test buttons for the TMB12A03 active 3.3V buzzer on GPIO25.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01358.bin",
+  "firmware_size": 1517184,
+  "sha256": "C363023A812B6454C24A713DAC2D43CC748FCB224137C1E7070AE06516D756F2 "
 }
