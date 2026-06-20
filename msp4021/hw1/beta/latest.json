@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.63-beta",
-  "build": 104,
+  "latest_version": "0.13.64-beta",
+  "build": 105,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.63-beta build 104: adds dedicated Buzzer mute timer widget and prioritizes mute countdown over ON/OFF status in Sound/Buzzer widgets.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01363.bin",
-  "firmware_size": 1525584,
-  "sha256": "59CD5C6DDDCD6042D268BA885F66E13CF5E76283B208373694878C7D636E468B"
+  "release_notes": "v0.13.64-beta build 105: adds configurable Screen 7 trend sensor interval so 1-minute sources target 60 points and 5-minute sources target 12 points.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01364.bin",
+  "firmware_size": 1527984,
+  "sha256": "3CF2B07E1E9CEFFDEAC995153ADCC141143DFAEDED471D6C62C11E71F00DB610"
 }
