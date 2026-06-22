@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.67-beta",
-  "build": 108,
+  "latest_version": "0.13.71-beta",
+  "build": 112,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.67-beta build 108: compile fix for v0.13.66 by removing undeclared lastNightscoutReadAttempt while preserving Wi-Fi/Web UI stability improvements.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01367.bin",
-  "firmware_size": 1530928,
-  "sha256": "E4C795B79996122B6620262FA6BBADF10FE68EBCCDE3DF63203D0BA926CF0E1A"
+  "release_notes": "v0.13.71-beta build 112: compile fix for v0.13.70 by removing duplicate lastNightscoutRecoveryMs declaration while preserving global unit conversion.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01371.bin",
+  "firmware_size": 1538384,
+  "sha256": "4402BAB39D1ABDB6EA46846B03A42BBEF879BD311A89CE3DD6FEC9D477A28325"
 }
