@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.76-beta",
-  "build": 117,
+  "latest_version": "0.13.80-beta",
+  "build": 121,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.76-beta build 117: improves Wi-Fi loop stability by using one Wi-Fi recovery owner, preventing Nightscout failures from forcing Wi-Fi disconnects while connected, throttling cloud checks, and setting Nightscout polling to 30 seconds.",
+  "release_notes": "v0.13.80-beta build 121: improves Wi-Fi loop stability by using one Wi-Fi recovery owner, preventing Nightscout failures from forcing Wi-Fi disconnects while connected, throttling cloud checks, and setting Nightscout polling to 30 seconds.",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01376.bin",
-  "firmware_size": 1539088,
-  "sha256": "932E9DE1667BAD4DDA45A714B4F19A43C2C5A6C374F8FCC1AABF0E7F243964E0"
+  "firmware_size": 1572656,
+  "sha256": "3D3CB9BE517773C4052059528A5CB77E0588623B879087541CF43BFCF5BFF429"
 }
