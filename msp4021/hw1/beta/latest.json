@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.86-beta",
-  "build": 127,
+  "latest_version": "0.13.87-beta",
+  "build": 128,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.86-beta build 127: tightens insulin treatment parsing so free-text xDrip/Nightscout notes cannot become phantom insulin doses, breaks glucose lines across large CGM gaps on the insulin graph, keeps the 60-second insulin screen hold, and preserves Nightscout IOB with calculated IOB fallback.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01386.bin",
-  "firmware_size": 1584832,
-  "sha256": "FA81FD4ED57B5CC9CC7AEACDEE56348758FF16FAD7DBC1497B7283A548E774C0"
+  "release_notes": "v0.13.87-beta build 128: improves ESP32 network stability with a cooperative priority scheduler so Wi-Fi, Web UI and 30-second Nightscout glucose polling take priority over optional battery, insulin, IOB and trend refreshes. Insulin and trend screens now use cached data first and split larger Nightscout reads into spaced optional work.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01387.bin",
+  "firmware_size": 1585152,
+  "sha256": "3DFDFA722412A050D7397C565C4CC994CBE45541062B5A585FFE3ACE841C4DE2"
 }
