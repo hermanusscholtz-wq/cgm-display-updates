@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.80-beta",
-  "build": 121,
+  "latest_version": "0.13.86-beta",
+  "build": 127,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.80-beta build 121: improves Wi-Fi loop stability by using one Wi-Fi recovery owner, preventing Nightscout failures from forcing Wi-Fi disconnects while connected, throttling cloud checks, and setting Nightscout polling to 30 seconds.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01376.bin",
-  "firmware_size": 1572656,
-  "sha256": "3D3CB9BE517773C4052059528A5CB77E0588623B879087541CF43BFCF5BFF429"
+  "release_notes": "v0.13.86-beta build 127: tightens insulin treatment parsing so free-text xDrip/Nightscout notes cannot become phantom insulin doses, breaks glucose lines across large CGM gaps on the insulin graph, keeps the 60-second insulin screen hold, and preserves Nightscout IOB with calculated IOB fallback.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01386.bin",
+  "firmware_size": 1584832,
+  "sha256": "FA81FD4ED57B5CC9CC7AEACDEE56348758FF16FAD7DBC1497B7283A548E774C0"
 }
