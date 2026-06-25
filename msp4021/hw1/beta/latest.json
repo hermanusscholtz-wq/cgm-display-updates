@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.0",
-  "build": 140,
+  "latest_version": "14.1",
+  "build": 141,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.0 build 140: adds 48-point 4-hour glucose cache refill/repair, timestamp gap detection, forced partial-cache backfill, and clean sensor warm-up UI handling so clean Nightscout data gaps keep the normal display layout instead of triggering the no-data alarm screen.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_0_B140.bin",
-  "firmware_size": 1595984,
-  "sha256": "D0D9FFDF5B272FC0A9DFE6B46CD8E9DCB7023B189F3BABDAAFA6F7F7962C9EB6"
+  "release_notes": "V14.1 build 141: WiFi + 4h cache stability overhaul. Fixes TCP socket closing mid-read (trend data loss), adds 250ms WiFi health servicing inside HTTPS read loop (prevents disconnects during trend pulls), raises WEB_UI_NETWORK_QUIET_MS to 25s, fixes payload.reserve heap fragmentation, reduces all trend HTTPS timeouts, suppresses backfill hammering during sensor warmup, breaks trend graph line at data gaps so sensor changes show correctly, and tightens FIFO merge window to fix duplicate points at 5-minute slot boundaries.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_1_B141.bin",
+  "firmware_size": 1596816,
+  "sha256": "BA9124B6695DA8AEF28AA2E34A22941F8B915685911278376CB51742F94FBD32"
 }
