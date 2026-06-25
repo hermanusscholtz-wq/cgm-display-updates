@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.13.87-beta",
-  "build": 128,
+  "latest_version": "14.0",
+  "build": 140,
   "critical": false,
   "mandatory": false,
-  "release_notes": "v0.13.87-beta build 128: improves ESP32 network stability with a cooperative priority scheduler so Wi-Fi, Web UI and 30-second Nightscout glucose polling take priority over optional battery, insulin, IOB and trend refreshes. Insulin and trend screens now use cached data first and split larger Nightscout reads into spaced optional work.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_v01387.bin",
-  "firmware_size": 1585152,
-  "sha256": "3DFDFA722412A050D7397C565C4CC994CBE45541062B5A585FFE3ACE841C4DE2"
+  "release_notes": "V14.0 build 140: adds 48-point 4-hour glucose cache refill/repair, timestamp gap detection, forced partial-cache backfill, and clean sensor warm-up UI handling so clean Nightscout data gaps keep the normal display layout instead of triggering the no-data alarm screen.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_0_B140.bin",
+  "firmware_size": 1595984,
+  "sha256": "D0D9FFDF5B272FC0A9DFE6B46CD8E9DCB7023B189F3BABDAAFA6F7F7962C9EB6"
 }
