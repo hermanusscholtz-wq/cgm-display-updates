@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.10",
-  "build": 152,
+  "latest_version": "14.11",
+  "build": 153,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.10 build 152: reduces main-dashboard and night-screen flicker by quieting redraw signatures, restores line-only 1h trend rendering, increases status-message throttle, delays Wi-Fi lost drawing, and confirms 192.168.4.1 setup prompt.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_10_B152.bin",
-  "firmware_size": 1621584,
-  "sha256": "AF2D17FA5821BB56A6B45234A2797ACD153B694BADD91526E3BB54B97BC4C8EA"
+  "release_notes": "V14.11 build 153: restores 1h mini trend to dots-only rendering, stops FIFO/NVS cache changes from invalidating main display signatures, decouples drawing from cache maintenance, and spaces non-forced NVS cache saves to 120 seconds to reduce display flicker.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_11_B153.bin",
+  "firmware_size": 1621536,
+  "sha256": "67C3BD4391086902462193A1FB8C08173F001D2220EDEC9662F8A9A63ED627EF"
 }
