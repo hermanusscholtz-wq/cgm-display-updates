@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.1",
-  "build": 141,
+  "latest_version": "14.10",
+  "build": 152,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.1 build 141: WiFi + 4h cache stability overhaul. Fixes TCP socket closing mid-read (trend data loss), adds 250ms WiFi health servicing inside HTTPS read loop (prevents disconnects during trend pulls), raises WEB_UI_NETWORK_QUIET_MS to 25s, fixes payload.reserve heap fragmentation, reduces all trend HTTPS timeouts, suppresses backfill hammering during sensor warmup, breaks trend graph line at data gaps so sensor changes show correctly, and tightens FIFO merge window to fix duplicate points at 5-minute slot boundaries.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_1_B141.bin",
-  "firmware_size": 1596816,
-  "sha256": "BA9124B6695DA8AEF28AA2E34A22941F8B915685911278376CB51742F94FBD32"
+  "release_notes": "V14.10 build 152: reduces main-dashboard and night-screen flicker by quieting redraw signatures, restores line-only 1h trend rendering, increases status-message throttle, delays Wi-Fi lost drawing, and confirms 192.168.4.1 setup prompt.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_10_B152.bin",
+  "firmware_size": 1621584,
+  "sha256": "AF2D17FA5821BB56A6B45234A2797ACD153B694BADD91526E3BB54B97BC4C8EA"
 }
