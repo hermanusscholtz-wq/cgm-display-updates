@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.12",
-  "build": 154,
+  "latest_version": "14.37",
+  "build": 179,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.12 build 154: fixes WhatsApp settings being lost after power reboot by adding dedicated wa_cfg NVS namespace and immediate Web UI save for provider/API/numbers/timers/tick-boxes. Keeps V14.11 display stability and V14.10 Wi-Fi Manager Pro.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_12_B154.bin",
-  "firmware_size": 1627856,
-  "sha256": "9201F9DF2BD448BE1CBF90BF8F53522111CA786B86829342F29F00E11CDEAAA6"
+  "release_notes": "V14.37 build 179: restores expected 4-hour trend behaviour by forcing RAM backfill when the trend screen opens if the cache is empty/partial, keeps FIFO live after manual backfill, fixes the FIFO source-copy helper, and updates the TFT WhatsApp screen to show four caretakers for TextMeBot.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_37_B179.bin",
+  "firmware_size": 1731664,
+  "sha256": "31DD3D42D62AF408672F3826FC87B5ADAF7BB2B3A1CDAD8E0F24A9137EF9CAC5"
 }
