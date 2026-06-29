@@ -3,12 +3,13 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.37",
-  "build": 179,
+  "latest_version": "14.38",
+  "build": 180,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.37 build 179: restores expected 4-hour trend behaviour by forcing RAM backfill when the trend screen opens if the cache is empty/partial, keeps FIFO live after manual backfill, fixes the FIFO source-copy helper, and updates the TFT WhatsApp screen to show four caretakers for TextMeBot.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_37_B179.bin",
-  "firmware_size": 1731664,
-  "sha256": "31DD3D42D62AF408672F3826FC87B5ADAF7BB2B3A1CDAD8E0F24A9137EF9CAC5"
+  "release_notes": "V14.38 build 180: adds a selectable main-screen widget for the last Nightscout/xDrip insulin dose. The widget shows the last dose units and local dose time, for example 2.0U 18H30, using the same treatment data already used by the Insulin Activity screen.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_38_B180.bin",
+  "firmware_size": 1732496,
+  "sha256": "00BF5648B631446541C980F91A718382763DD8A74F9ACEF92E8CF19DC0A9CA64"
 }
+
