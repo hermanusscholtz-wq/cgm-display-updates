@@ -2,14 +2,13 @@
   "product": "Leah R2 Care Display",
   "model": "msp4021",
   "hardware_rev": "hw1",
-  "channel": "beta",
-  "latest_version": "14.38",
-  "build": 180,
+  "channel": "stable",
+  "latest_version": "14.39",
+  "build": 181,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.38 build 180: adds a selectable main-screen widget for the last Nightscout/xDrip insulin dose. The widget shows the last dose units and local dose time, for example 2.0U 18H30, using the same treatment data already used by the Insulin Activity screen.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_38_B180.bin",
-  "firmware_size": 1732496,
-  "sha256": "00BF5648B631446541C980F91A718382763DD8A74F9ACEF92E8CF19DC0A9CA64"
+  "release_notes": "V14.39 build 181 stable: reworks the Web UI WiFi layout, moves NVS diagnostics under Advanced setup, moves Save settings under Current status, moves selected-provider WhatsApp tests under WhatsApp notifications, adds UTF-8 headers, and improves WiFi recovery with 3-minute saved-SSID checks, password-change messaging, setup AP recovery and WiFi signal stability warnings.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_39_B181.bin",
+  "firmware_size": 1739968,
+  "sha256": "A872E09BB8B179CA609DE3AD1E59A3AA84D3B2FE64CE73C7F3344A9D3EAC075A"
 }
-
