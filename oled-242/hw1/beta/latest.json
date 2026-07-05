@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.20-beta",
-  "build": 44,
+  "latest_version": "0.12.21-beta",
+  "build": 45,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 44. Cleans up the web UI layout by consolidating duplicate setup cards and restructuring the page order into Current status, Page view, Patient & display, Glucose alert limits, Insulin / bolus, WhatsApp notifications, and Firmware and support actions. Moves Save settings into Current status. Moves display/night dimming, sensor data, and Wi-Fi networks under Patient & display. Moves Cloud WhatsApp, caregiver alarms, repeat rules, and care reminders under WhatsApp notifications.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_20_BETA_OLED242_BUILD44.bin",
-  "firmware_size": 1483632,
-  "sha256": "B8ABDF27FFA1AD1FB36D3192409FE4F0507CD6AF9523A76A54741B7BC469CC13"
+  "release_notes": "OLED 2.42 beta build 45. Refines the main glucose screen layout by moving the glucose unit above the trend arrows, repositioning the delta below the arrows, and rebuilding the bottom insulin/status rows into fixed columns for improved readability. Keeps the build 44 web UI cleanup and consolidated menu structure.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_21_BETA_OLED242_BUILD45.bin",
+  "firmware_size": 1484016,
+  "sha256": "43A81D69B6D339864E375C0BCC25960A8B13D7138313AD8C7D55FA6A9B450235"
 }
