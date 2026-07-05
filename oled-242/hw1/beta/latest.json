@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.16-beta",
-  "build": 40,
+  "latest_version": "0.12.17-beta",
+  "build": 41,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 40. Removes Wi-Fi bars from the 4-hour trend screen to prevent overlap with insulin status text, keeps the current status web card open, improves main screen layout, Wi-Fi profile handling, caregiver alert routing, glucose unit display, and OTA stability.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_16_BETA_OLED242_BUILD40.bin",
-  "firmware_size": 1479376,
-  "sha256": "46E59661FB5EA62683A306CB91C541FC16A83B20159BD6E843228171C9D5E2E9"
+  "release_notes": "OLED 2.42 beta build 41. Fixes the NO DATA screen layout by cleaning the last-reading line, right-aligning the data age, using a smaller IP line, and preventing text from clipping into the OLED frame. Includes previous build 40 trend-screen cleanup and Wi-Fi bar overlap fixes.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_17_BETA_OLED242_BUILD41.bin",
+  "firmware_size": 1479552,
+  "sha256": "5CACD99C56DBDC87251136F03D444EA33E7308AB859D777CB275F149F43741EC"
 }
