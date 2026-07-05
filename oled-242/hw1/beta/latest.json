@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.17-beta",
-  "build": 41,
+  "latest_version": "0.12.18-beta",
+  "build": 42,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 41. Fixes the NO DATA screen layout by cleaning the last-reading line, right-aligning the data age, using a smaller IP line, and preventing text from clipping into the OLED frame. Includes previous build 40 trend-screen cleanup and Wi-Fi bar overlap fixes.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_17_BETA_OLED242_BUILD41.bin",
-  "firmware_size": 1479552,
-  "sha256": "5CACD99C56DBDC87251136F03D444EA33E7308AB859D777CB275F149F43741EC"
+  "release_notes": "OLED 2.42 beta build 42. Updates the OLED web UI to match the 4-inch web UI style with colored section lines, cleaner collapsible cards, UTF-8 fixes, and a non-collapsible current status panel. Adds main-screen insulin information including IOB now, total bolus dose today, and last bolus dose/time. Improves Nightscout treatment reading by checking the latest 50 treatments and recalculating insulin activity on startup.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_18_BETA_OLED242_BUILD42.bin",
+  "firmware_size": 1482464,
+  "sha256": "F9EB0BFC11428CDE9CB786622B70329A262891F2CF0185EED48B4982DAD62FFA"
 }
