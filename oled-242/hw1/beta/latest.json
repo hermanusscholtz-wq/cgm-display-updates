@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.21-beta",
-  "build": 45,
+  "latest_version": "0.12.23-beta",
+  "build": 47,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 45. Refines the main glucose screen layout by moving the glucose unit above the trend arrows, repositioning the delta below the arrows, and rebuilding the bottom insulin/status rows into fixed columns for improved readability. Keeps the build 44 web UI cleanup and consolidated menu structure.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_21_BETA_OLED242_BUILD45.bin",
-  "firmware_size": 1484016,
-  "sha256": "43A81D69B6D339864E375C0BCC25960A8B13D7138313AD8C7D55FA6A9B450235"
+  "release_notes": "OLED 2.42 beta build 47. Removes the duplicate Firmware/support actions shortcut button from the Current status card while keeping the main Firmware/support section available from the web UI navigation. Includes previous main-screen layout refinements, insulin/bolus display, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_23_BETA_OLED242_BUILD47.bin",
+  "firmware_size": 1483472,
+  "sha256": "992996282A6C98E68A1C2ED5B3E607A20FF40CB3745712CBFC519F3686F7A285"
 }
