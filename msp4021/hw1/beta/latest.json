@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.39",
-  "build": 184,
+  "build": 185,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 184 extended trend and insulin history patch: adds selectable 4h, 8h, 12h and 24h history windows for the Trend and Insulin Activity screens, uses 5-minute spacing for history windows above 4 hours to protect ESP32 memory and performance, refreshes cached trend/insulin data when the selected window changes, and preserves the build 183 WiFi/Nightscout recovery improvements.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B184.bin",
-  "firmware_size": 1749152,
-  "sha256": "8A8D2323E042555C01882E7BD085DAD654894E9D8D06F38160D0BFC214C61160"
+  "release_notes": "V14.39 build 185 WiFi/Nightscout priority and 24h trend patch: changes the 24-hour Trend and Insulin Activity history window to 10-minute spacing, keeps 8h and 12h at 5-minute spacing, preserves the 1-hour main glucose trend as a separate FIFO buffer, uses actual Nightscout entry timestamps for the 1-hour trend, and prioritizes latest glucose recovery after WiFi reconnect before lower-priority history, insulin, IOB and device-status HTTPS calls.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B185.bin",
+  "firmware_size": 1749776,
+  "sha256": "E1EF8573AB54214AA1D23B844DAF6E369162DA90A414A893155D255622A17565"
 }
