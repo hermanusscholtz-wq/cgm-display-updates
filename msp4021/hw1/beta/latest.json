@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.39",
-  "build": 181,
+  "build": 183,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 181 stable: reworks the Web UI WiFi layout, moves NVS diagnostics under Advanced setup, moves Save settings under Current status, moves selected-provider WhatsApp tests under WhatsApp notifications, adds UTF-8 headers, and improves WiFi recovery with 3-minute saved-SSID checks, password-change messaging, setup AP recovery and WiFi signal stability warnings.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_39_B181.bin",
-  "firmware_size": 1739968,
-  "sha256": "A872E09BB8B179CA609DE3AD1E59A3AA84D3B2FE64CE73C7F3344A9D3EAC075A"
+  "release_notes": "V14.39 build 183 WiFi/Nightscout recovery patch: improves ESP32 WiFi stability by avoiding setup-mode fallback during DHCP wait, only treating WiFi as usable when a valid IP address is present, delaying Nightscout HTTPS calls after reconnect until DHCP/DNS/TLS settle, adding fast post-reconnect Nightscout retry, and improving status messages for DHCP, No IP and setup AP states.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_39_B183.bin",
+  "firmware_size": 1743312,
+  "sha256": "DF16A3F385E60A1D9BDB0E5F3A1E808D7B0D10A61D59F2F6A7055D4CF186CEDA"
 }
