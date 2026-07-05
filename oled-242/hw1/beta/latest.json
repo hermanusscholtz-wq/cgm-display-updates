@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.23-beta",
-  "build": 47,
+  "latest_version": "0.12.24-beta",
+  "build": 48,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 47. Removes the duplicate Firmware/support actions shortcut button from the Current status card while keeping the main Firmware/support section available from the web UI navigation. Includes previous main-screen layout refinements, insulin/bolus display, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_23_BETA_OLED242_BUILD47.bin",
-  "firmware_size": 1483472,
-  "sha256": "992996282A6C98E68A1C2ED5B3E607A20FF40CB3745712CBFC519F3686F7A285"
+  "release_notes": "OLED 2.42 beta build 48. Updates the OLED top-row layout to show patient name, local time, update envelope, and Wi-Fi bars. The patient name is clipped by pixel width before it reaches the time field. Applies the same compact header to the NO DATA screen. Includes previous web UI cleanup, main-screen insulin/status refinements, caregiver WhatsApp routing, and Wi-Fi profile improvements.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_24_BETA_OLED242_BUILD48.bin",
+  "firmware_size": 1484048,
+  "sha256": "FE5B5B5C93A114D5E5B03B4132FB94714E487D313D6FD7269C20B7B0ECEA5E40"
 }
