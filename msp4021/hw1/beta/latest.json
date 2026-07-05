@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.39",
-  "build": 183,
+  "build": 184,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 183 WiFi/Nightscout recovery patch: improves ESP32 WiFi stability by avoiding setup-mode fallback during DHCP wait, only treating WiFi as usable when a valid IP address is present, delaying Nightscout HTTPS calls after reconnect until DHCP/DNS/TLS settle, adding fast post-reconnect Nightscout retry, and improving status messages for DHCP, No IP and setup AP states.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B183.bin",
-  "firmware_size": 1743312,
-  "sha256": "DF16A3F385E60A1D9BDB0E5F3A1E808D7B0D10A61D59F2F6A7055D4CF186CEDA"
+  "release_notes": "V14.39 build 184 extended trend and insulin history patch: adds selectable 4h, 8h, 12h and 24h history windows for the Trend and Insulin Activity screens, uses 5-minute spacing for history windows above 4 hours to protect ESP32 memory and performance, refreshes cached trend/insulin data when the selected window changes, and preserves the build 183 WiFi/Nightscout recovery improvements.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B184.bin",
+  "firmware_size": 1749152,
+  "sha256": "8A8D2323E042555C01882E7BD085DAD654894E9D8D06F38160D0BFC214C61160"
 }
