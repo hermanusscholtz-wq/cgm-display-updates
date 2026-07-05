@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.39",
-  "build": 185,
+  "build": 186,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 185 WiFi/Nightscout priority and 24h trend patch: changes the 24-hour Trend and Insulin Activity history window to 10-minute spacing, keeps 8h and 12h at 5-minute spacing, preserves the 1-hour main glucose trend as a separate FIFO buffer, uses actual Nightscout entry timestamps for the 1-hour trend, and prioritizes latest glucose recovery after WiFi reconnect before lower-priority history, insulin, IOB and device-status HTTPS calls.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B185.bin",
-  "firmware_size": 1749776,
-  "sha256": "E1EF8573AB54214AA1D23B844DAF6E369162DA90A414A893155D255622A17565"
+  "release_notes": "V14.39 build 186 12-hour trend and mini-trend backfill patch: removes the 24-hour history option for MSP4021 stability, keeps selectable 4h, 8h and 12h Trend and Insulin Activity windows, clamps any saved 24h setting back to 12h, restores the 1-hour main glucose mini trend as a separate raw timestamped FIFO buffer, adds a dedicated 1-hour Nightscout backfill path, clears zero-only mini-trend caches, and preserves the build 183/185 WiFi and Nightscout recovery logic.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B186.bin",
+  "firmware_size": 1751776,
+  "sha256": "76C94167BC012AA0E0B2EA1AAF8D52D5307252361AFABB1B644FDFD68E1E992E"
 }
