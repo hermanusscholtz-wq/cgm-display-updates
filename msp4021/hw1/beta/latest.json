@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.39",
-  "build": 186,
+  "latest_version": "14.41",
+  "build": 185,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 186 12-hour trend and mini-trend backfill patch: removes the 24-hour history option for MSP4021 stability, keeps selectable 4h, 8h and 12h Trend and Insulin Activity windows, clamps any saved 24h setting back to 12h, restores the 1-hour main glucose mini trend as a separate raw timestamped FIFO buffer, adds a dedicated 1-hour Nightscout backfill path, clears zero-only mini-trend caches, and preserves the build 183/185 WiFi and Nightscout recovery logic.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_39_B186.bin",
-  "firmware_size": 1751776,
-  "sha256": "76C94167BC012AA0E0B2EA1AAF8D52D5307252361AFABB1B644FDFD68E1E992E"
+  "release_notes": "V14.41 build 185 glucose trend backfill reliability fix: backfilled Nightscout points now merge into the glucose FIFO instead of replacing it, so a partial read can no longer erase older cached trend points (root cause of the trend emptying out after a few hours). Chunked 1-hour reads become the primary backfill for windows above 4h, run newest-first and skip hours already cached. Latest-count and fallback readers are right-sized for their payload limits and use the lightweight parser to halve peak heap use. The backfill-needed check ignores the freshly rolled FIFO head slots, and repeated no-progress backfills back off to a 30-minute retry. Keeps the selectable 1/2/3/4/6/8/10/12-hour trend windows and 5-minute FIFO rolling from build 184.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_41_B185.bin",
+  "firmware_size": 1750192,
+  "sha256": "AB5D5BB7D2BB3D178FEA4D7544ED7C5933152A4C5CE217862977099121AB5073"
 }
