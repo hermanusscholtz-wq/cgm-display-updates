@@ -3,12 +3,12 @@
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "14.43",
-  "build": 190,
+  "latest_version": "14.44",
+  "build": 192,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.43 build 190 audio alarm fatigue patch: adds optional seeded random audio patterns with 50 rhythm variants per alarm type, adds a user-configurable mute duration clamped to 1-30 minutes, applies a default 30-second buzzer-on and 15-second quiet-pause alarm cycle, keeps fixed-pattern mode available, keeps visual alarms active while audio is muted, and preserves the build 189 WiFi, Nightscout, 1-hour mini-trend and simple 12-hour buffer logic.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_43_B190.bin",
-  "firmware_size": 1746480,
-  "sha256": "047761FD7E39BEFD08F332078DD8705CE1F7EEDED5597F1ED0B97E3CB7A20791"
+  "release_notes": "V14.44 build 192 Nightscout properties compile-fix release: reads Nightscout /api/v2/properties/iob,cob every 1 minute for IOB and COB, reads /api/v2/properties/sage every hour for sensor age when available, adds COB and sensor age widget support, uses Nightscout IOB as the primary insulin trend source with local insulin decay retained as fallback, preserves manual sensor age setup in the Web UI, and includes the build 192 compile fix for the Nightscout IOB trend sample timer declaration.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B192.bin",
+  "firmware_size": 1757088,
+  "sha256": "E12369DE2FFBBF1366622A1C1716E187477A3B7BE22F329AF182CCE88608FEBD"
 }
