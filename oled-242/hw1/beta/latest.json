@@ -8,7 +8,7 @@
   "critical": false,
   "mandatory": false,
   "release_notes": "OLED 2.42 beta build 50. Adds local audio alarm fatigue protection with optional seeded random buzzer patterns, 50 controlled rhythm variants per alarm episode, fixed-pattern fallback, configurable mute duration from 1 to 30 minutes, and a default 30-second buzzer / 15-second pause alarm cycle. Visual alarms, WhatsApp alerts, and alarm conditions remain active while audio is muted. Also includes the clean night glucose screen, top-row time/update/Wi-Fi layout, insulin/status display refinements, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_26_BUILD50.bin",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_26_BETA_OLED242_BUILD50.bin",
   "firmware_size": 1497456,
   "sha256": "4A0948D11A4A45708179E238358B52E7EFFD76FACC63EB24ADC8636AE3CFAD73"
 }
