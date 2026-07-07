@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.27-beta",
-  "build": 51,
+  "latest_version": "0.12.29-beta",
+  "build": 53,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 51. Improves the night glucose screen by using the OLED display space more aggressively, making the glucose value much larger from boundary to boundary, moving smaller trend arrows to the far-right side, and keeping the delta with unit in the lower-right corner. Includes previous clean night-screen support, random audio alarm fatigue protection, top-row time/update/Wi-Fi layout, insulin/status display refinements, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_27_BETA_OLED242_BUILD51.bin",
-  "firmware_size": 1505056,
-  "sha256": "989869DCE0097CFDE993F990658AECDFA199D3E39733BC4B79CCC35E3F3DEFE3"
+  "release_notes": "OLED 2.42 beta build 53. Adds improved Nightscout API auto-read for SAGE, accepting Sensor Change, Sensor Start, Sensor Insert and related CGM sensor events when sensor auto-read is enabled. Adds direct IOB and COB auto-read from /api/v2/properties/iob,cob while retaining treatment-based bolus fallback logic. Updates the web UI current status, insulin/bolus section, and OLED insulin screen to show IOB, COB, last bolus, last carbs, dose today, SAGE, and sensor-left information. Includes previous clean night glucose screen, random audio alarm fatigue protection, top-row time/update/Wi-Fi layout, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_29_BETA_OLED242_BUILD53.bin",
+  "firmware_size": 1512480,
+  "sha256": "FEAD9FD832FF322477C336F0814E81D59B3985115176AAE9BBB85E9DF7B8E570"
 }
