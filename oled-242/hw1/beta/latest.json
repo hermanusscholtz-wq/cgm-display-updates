@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.29-beta",
-  "build": 53,
+  "latest_version": "0.12.30-beta",
+  "build": 54,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 53. Adds improved Nightscout API auto-read for SAGE, accepting Sensor Change, Sensor Start, Sensor Insert and related CGM sensor events when sensor auto-read is enabled. Adds direct IOB and COB auto-read from /api/v2/properties/iob,cob while retaining treatment-based bolus fallback logic. Updates the web UI current status, insulin/bolus section, and OLED insulin screen to show IOB, COB, last bolus, last carbs, dose today, SAGE, and sensor-left information. Includes previous clean night glucose screen, random audio alarm fatigue protection, top-row time/update/Wi-Fi layout, caregiver WhatsApp routing, Wi-Fi profile improvements, and consolidated web UI structure.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_29_BETA_OLED242_BUILD53.bin",
-  "firmware_size": 1512480,
-  "sha256": "FEAD9FD832FF322477C336F0814E81D59B3985115176AAE9BBB85E9DF7B8E570"
+  "release_notes": "OLED 2.42 beta build 54. Refines the night glucose screen by vertically centering the large glucose value within the 64-line OLED layout using calculated font metrics, preventing the night number from sitting too low. Keeps the right-side arrow and delta/unit layout. Includes Build 53 Nightscout v2 SAGE auto-read, IOB/COB auto-read, improved insulin/bolus display, random audio alarm fatigue protection, Wi-Fi profile improvements, caregiver WhatsApp routing, and consolidated web UI structure.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_30_BETA_OLED242_BUILD54.bin",
+  "firmware_size": 1512544,
+  "sha256": "6DBE000EE17076C0F374610710E703FBBF05A68A40CEF31001A4D24C000C155E"
 }
