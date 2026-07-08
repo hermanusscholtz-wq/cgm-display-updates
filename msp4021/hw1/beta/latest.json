@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 192,
+  "build": 197,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 192 Nightscout properties compile-fix release: reads Nightscout /api/v2/properties/iob,cob every 1 minute for IOB and COB, reads /api/v2/properties/sage every hour for sensor age when available, adds COB and sensor age widget support, uses Nightscout IOB as the primary insulin trend source with local insulin decay retained as fallback, preserves manual sensor age setup in the Web UI, and includes the build 192 compile fix for the Nightscout IOB trend sample timer declaration.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B192.bin",
-  "firmware_size": 1757088,
-  "sha256": "E12369DE2FFBBF1366622A1C1716E187477A3B7BE22F329AF182CCE88608FEBD"
+  "release_notes": "V14.44 build 197 Nightscout IOB buffer and sensor UI patch: uses treatment-model IOB backfill after restart, then updates the 12-hour IOB graph buffer with live Nightscout IOB values at 5-minute intervals when available; keeps the local insulin decay model as fallback, adds IOB and COB to Current Status, cleans the display screen selector layout, improves sensor source selection between Nightscout SAGE and manual mode, shows sensor age and time remaining, and shows a sensor-expiry warning near the child name when less than 24 hours remain.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B197.bin",
+  "firmware_size": 1759888,
+  "sha256": "5626313FA5454D7C6CF51BF9C4FC4123BA5178334F6CFC8C47A66B3245865A47"
 }
