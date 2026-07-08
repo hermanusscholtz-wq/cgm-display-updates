@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 198,
+  "build": 200,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 198 trend buffer validation patch: aligns the Trend and Insulin Activity screens to use the same selected-window glucose slice from the fixed 12-hour buffer, slices IOB from the same 12-hour IOB buffer, adds internal validation for expected slots, valid points, gaps and 5-minute sequence, keeps real Nightscout gaps open without interpolation, adds Trend buf and IOB buf status tiles, and preserves the existing WiFi, Nightscout, 1-hour mini-trend, IOB, COB, SAGE and audio alarm logic.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B198.bin",
-  "firmware_size": 1762720,
-  "sha256": "08B733D69A4E8153BBFBEAF8CD3DE046CC1572FB3C7514AF962E69B2DA227A0A"
+  "release_notes": "V14.44 build 200 sensor header compile-fix release: keeps the build 199 sensor header alternation behaviour where sensor expiry warnings use the main header message area for 2 minutes in every 5-minute cycle while WiFi bars stay visible, then returns to the normal child-name, time and update-envelope header for 3 minutes; adds explicit Arduino forward declarations to fix compile-order errors, and preserves the build 198 trend buffer validation, WiFi, Nightscout, 1-hour mini-trend, IOB, COB, SAGE and audio alarm logic.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B200.bin",
+  "firmware_size": 1764304,
+  "sha256": "7BB2570BB96DDFB9E87C17E83110A64287FDC5C2763AFD0FC42F47F6AF8CCD39"
 }
