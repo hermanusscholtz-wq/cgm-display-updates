@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 197,
+  "build": 198,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 197 Nightscout IOB buffer and sensor UI patch: uses treatment-model IOB backfill after restart, then updates the 12-hour IOB graph buffer with live Nightscout IOB values at 5-minute intervals when available; keeps the local insulin decay model as fallback, adds IOB and COB to Current Status, cleans the display screen selector layout, improves sensor source selection between Nightscout SAGE and manual mode, shows sensor age and time remaining, and shows a sensor-expiry warning near the child name when less than 24 hours remain.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B197.bin",
-  "firmware_size": 1759888,
-  "sha256": "5626313FA5454D7C6CF51BF9C4FC4123BA5178334F6CFC8C47A66B3245865A47"
+  "release_notes": "V14.44 build 198 trend buffer validation patch: aligns the Trend and Insulin Activity screens to use the same selected-window glucose slice from the fixed 12-hour buffer, slices IOB from the same 12-hour IOB buffer, adds internal validation for expected slots, valid points, gaps and 5-minute sequence, keeps real Nightscout gaps open without interpolation, adds Trend buf and IOB buf status tiles, and preserves the existing WiFi, Nightscout, 1-hour mini-trend, IOB, COB, SAGE and audio alarm logic.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B198.bin",
+  "firmware_size": 1762720,
+  "sha256": "08B733D69A4E8153BBFBEAF8CD3DE046CC1572FB3C7514AF962E69B2DA227A0A"
 }
