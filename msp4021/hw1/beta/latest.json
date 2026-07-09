@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 202,
+  "build": 205,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 202 OTA alarm safety patch: blocks firmware installation while a care alarm is active, including low, urgent low, high, urgent high and no-data alarms; disables/hides the install action when OTA is unsafe, re-checks alarm state during download and before OTA finalization, aborts partial OTA safely without reboot when an alarm becomes active, and preserves the build 201 sensor SAGE fix plus the build 200 WiFi, Nightscout, trend buffer, 1-hour mini-trend, IOB, COB, SAGE widget, audio alarm and header alternation logic.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B202.bin",
-  "firmware_size": 1768352,
-  "sha256": "EAB7BB3015BD37B045E73E5BFB0970486FB7BB17D3F275F465E8C36B7BF482BB"
+  "release_notes": "V14.44 build 205 mini trend layout polish patch: removes the 7-segment glucose font from the Glucose + 1-Hour Live Trend screen, uses the same smooth glucose font style as the other screens, widens the glucose card, reduces the 1-hour trend card proportionally, moves the glucose value lower and centred so three-digit values with a decimal point fit cleanly, keeps arrow and delta beside the 1-hour trend title, keeps the 12/12 cache text hidden, and preserves the build 204 OTA finalize/reboot logic plus existing WiFi, Nightscout, trend buffer, IOB, COB, SAGE and audio alarm logic.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B205.bin",
+  "firmware_size": 1768096,
+  "sha256": "E2C3CD4A59958167DE88F4A22A9254BC5D53308A72FAECD47688EEA2FB40EBD3"
 }
