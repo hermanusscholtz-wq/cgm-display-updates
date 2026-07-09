@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 200,
+  "build": 201,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 200 sensor header compile-fix release: keeps the build 199 sensor header alternation behaviour where sensor expiry warnings use the main header message area for 2 minutes in every 5-minute cycle while WiFi bars stay visible, then returns to the normal child-name, time and update-envelope header for 3 minutes; adds explicit Arduino forward declarations to fix compile-order errors, and preserves the build 198 trend buffer validation, WiFi, Nightscout, 1-hour mini-trend, IOB, COB, SAGE and audio alarm logic.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B200.bin",
-  "firmware_size": 1764304,
-  "sha256": "7BB2570BB96DDFB9E87C17E83110A64287FDC5C2763AFD0FC42F47F6AF8CCD39"
+  "release_notes": "V14.44 build 201 sensor SAGE source fix: based on build 200 stable trend logic; corrects Nightscout SAGE sensor-age handling so fresh SAGE values such as 6h are used as the source of truth instead of stale Sensor Change timestamps, derives the sensor start time from Nightscout SAGE age when available, clears stale Nightscout sensor-start data when no active SAGE is found, keeps manual sensor mode fully separate, and preserves the build 200 WiFi, Nightscout, trend buffer, 1-hour mini-trend, IOB, COB, SAGE widget, audio alarm and header alternation logic.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B201.bin",
+  "firmware_size": 1766064,
+  "sha256": "28643C328AFA8D831800AAAF35D16BE3057B719BEEF63A4F7B8870125EBA99EC"
 }
