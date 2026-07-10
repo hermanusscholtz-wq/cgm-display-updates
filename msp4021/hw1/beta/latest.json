@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 206,
+  "build": 207,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 206 mini-trend glucose layout patch: corrects the build number to 206 and keeps the layout improvement that replaces the oversized 7-segment glucose style with the smooth font used on the other screens, removes the GLUCOSE label, enlarges the glucose value so it fills the left card while still fitting 99.9, trims the 1-hour trend card so the glucose card can be wider, and includes OTA finalize/reboot hardening and alarm-safe OTA behaviour.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B206.bin",
-  "firmware_size": 1767952,
-  "sha256": "E0FC19624E1B4698085EF21F75B41F5A304F5D3434D8FB609B33F1B01FB9F21F"
+  "release_notes": "V14.44 build 207 glucose and 1-hour trend layout refinement: further adjusts the main glucose and mini-trend screen layout after build 206, keeping the smooth glucose font, improved glucose box sizing, wider glucose area, reduced trend area and OTA finalize/reboot hardening with alarm-safe OTA behaviour.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B207.bin",
+  "firmware_size": 1768384,
+  "sha256": "342905CD53A85D3BE8A1788162F78183E7C2FBDA96C5592761698C871B7E09F2"
 }
