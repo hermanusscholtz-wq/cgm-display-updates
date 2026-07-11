@@ -1,15 +1,14 @@
-
 {
   "product": "Leah R2 Care Display",
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "stable",
-  "latest_version": "14.39",
-  "build": 183,
+  "latest_version": "14.44",
+  "build": 208,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.39 build 183 WiFi/Nightscout recovery patch: improves ESP32 WiFi stability by avoiding setup-mode fallback during DHCP wait, only treating WiFi as usable when a valid IP address is present, delaying Nightscout HTTPS calls after reconnect until DHCP/DNS/TLS settle, adding fast post-reconnect Nightscout retry, and improving status messages for DHCP, No IP and setup AP states.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_39_B183.bin",
-  "firmware_size": 1743312,
-  "sha256": "DF16A3F385E60A1D9BDB0E5F3A1E808D7B0D10A61D59F2F6A7055D4CF186CEDA"
+  "release_notes": "V14.44 build 208 based directly on the final uploaded build 207 source. Alarm snooze is tied to the current care-alarm episode: when glucose or no-data returns to a normal state, the remaining snooze timer is cancelled, so a returning alarm can sound again immediately. Final build 207 display, trend, glucose layout, Nightscout, sensor SAGE, IOB/COB, OTA alarm lockout and OTA finalize/reboot behaviour are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_44_B208.bin",
+  "firmware_size": 1768432,
+  "sha256": "0DA2931A57E7CB0ADA4D097CA9CFEE3CC39FEEDA996CB1FF154EEC07C54945E0"
 }
