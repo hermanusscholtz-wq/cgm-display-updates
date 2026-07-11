@@ -3,7 +3,7 @@
   "display_name": "Leah 2R Displays",
   "model": "msp4021",
   "hardware_rev": "hw1",
-  "channel": "stable",
+  "channel": "beta",
   "latest_version": "14.44",
   "build": 209,
   "critical": false,
