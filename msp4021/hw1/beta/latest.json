@@ -2,13 +2,13 @@
   "product": "Leah R2 Care Display",
   "model": "msp4021",
   "hardware_rev": "hw1",
-  "channel": "beta",
+  "channel": "stable",
   "latest_version": "14.44",
-  "build": 207,
+  "build": 208,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 207 glucose and 1-hour trend layout refinement: further adjusts the main glucose and mini-trend screen layout after build 206, keeping the smooth glucose font, improved glucose box sizing, wider glucose area, reduced trend area and OTA finalize/reboot hardening with alarm-safe OTA behaviour.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B207.bin",
-  "firmware_size": 1768384,
-  "sha256": "342905CD53A85D3BE8A1788162F78183E7C2FBDA96C5592761698C871B7E09F2"
+  "release_notes": "V14.44 build 208 based directly on the final uploaded build 207 source. Alarm snooze is tied to the current care-alarm episode: when glucose or no-data returns to a normal state, the remaining snooze timer is cancelled, so a returning alarm can sound again immediately. Final build 207 display, trend, glucose layout, Nightscout, sensor SAGE, IOB/COB, OTA alarm lockout and OTA finalize/reboot behaviour are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_44_B208.bin",
+  "firmware_size": 1768432,
+  "sha256": "0DA2931A57E7CB0ADA4D097CA9CFEE3CC39FEEDA996CB1FF154EEC07C54945E0"
 }
