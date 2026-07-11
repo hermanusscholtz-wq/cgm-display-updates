@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.33-beta",
-  "build": 57,
+  "latest_version": "0.12.34-beta",
+  "build": 58,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 57. Fixes the missing Nightscout SAGE helper required to process Sensor Start, Sensor Change, Sensor Insert and related SAGE events. Includes the alarm snooze reset logic so audio mute clears when glucose leaves the alarm state or changes alarm class, allowing a new alarm episode to sound immediately. Also retains midnight-to-midnight daily bolus totals, Nightscout IOB/COB auto-read, centered night screen, random audio alarm patterns, caregiver WhatsApp routing, Wi-Fi profile handling, and consolidated web UI.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_33_BETA_OLED242_BUILD57.bin",
-  "firmware_size": 1514352,
-  "sha256": "2144C8BB9D5B2EF7E43C4F3FE1A33238B19FBAF631889B856EEB07DD723A8242"
+  "release_notes": "OLED 2.42 beta build 58. Adds a full Local buzzer sounds section with configurable mute duration from 1 to 30 minutes, random or fixed audio mode, per-alarm buzzer selections, 30-second sound and 15-second pause cycle, and local buzzer test controls. Moves the active mute control into Current status and adds a live mute-time-remaining display. Retains alarm-episode snooze reset logic, midnight-to-midnight daily bolus totals, Nightscout SAGE and IOB/COB auto-read, centered night screen, Wi-Fi profile handling, caregiver WhatsApp routing, and consolidated web UI.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_CGM_DISPLAY_V0_12_34_BETA_OLED242_BUILD58.bin",
+  "firmware_size": 1524000,
+  "sha256": "2DEBA14C21D3D292759DF7D980B66DFA606F693BB6CB3639F06201D27001454F"
 }
