@@ -1,14 +1,15 @@
 {
-  "product": "Leah R2 Care Display",
+  "product": "leah-cgm-display",
+  "display_name": "Leah 2R Displays",
   "model": "msp4021",
   "hardware_rev": "hw1",
-  "channel": "beta",
+  "channel": "stable",
   "latest_version": "14.44",
-  "build": 208,
+  "build": 209,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 208 based directly on the final uploaded build 207 source. Alarm snooze is tied to the current care-alarm episode: when glucose or no-data returns to a normal state, the remaining snooze timer is cancelled, so a returning alarm can sound again immediately. Final build 207 display, trend, glucose layout, Nightscout, sensor SAGE, IOB/COB, OTA alarm lockout and OTA finalize/reboot behaviour are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_44_B208.bin",
-  "firmware_size": 1768432,
-  "sha256": "0DA2931A57E7CB0ADA4D097CA9CFEE3CC39FEEDA996CB1FF154EEC07C54945E0"
+  "release_notes": "V14.44 build 209 standardises the official product branding to Leah 2R Displays across the firmware identity, startup screens, setup hotspot, mDNS alias, default device name, local display messages, Web UI, Wi-Fi page and WhatsApp test messages. Known legacy default device names stored in NVS are migrated to Leah 2R Displays while caregiver-defined custom names are preserved. Build 208 alarm snooze reset-on-clear behaviour and all final Build 207 display, trend, Nightscout, sensor SAGE, IOB/COB and OTA safety functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_44_B209.bin",
+  "firmware_size": 1769152,
+  "sha256": "D9004292A170A22EC941BF6BBB113D4E5C11A0B524F7214379D8D62231705A0B"
 }
