@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 214,
+  "build": 215,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 214 beta changes the default local mDNS address to leah.local. New units use the alias label leah automatically, so the customer can continue initial setup without defining a custom alias. Known previous default aliases, including leah-2r-displays and leah-2r-setup, are migrated to leah, while custom caregiver-defined aliases remain unchanged and can still be edited from the Web UI. Build 213 setup-password display, Build 212 native OTA commit/reboot guard, Build 211 WhatsApp branding, Build 210 vision/mission and all alarm, Nightscout, SAGE, IOB/COB and display functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B214.bin",
-  "firmware_size": 1782288,
-  "sha256": "5607C4752C57E100B4895821BD94907565EF5CFE091589207637A54F340BED93"
+  "release_notes": "V14.44 build 215 beta applies the selected 4/6/8/10/12-hour trend window immediately when the Web UI Trend button is used, replaces remaining hard-coded 4-hour screen text with the selected window, and makes the Sensor Data screen return the browser to the dashboard before TFT drawing. The Sensor data Web UI is simplified into Auto and Manual conditional panels, and Local address setup is moved above Device name in a prominent red-bordered panel. Current status now shows the active .local address in a full-width responsive green card that wraps and auto-sizes. All B214 leah.local defaults, B213 setup-password display, B212 native OTA safeguards and existing Nightscout, SAGE, IOB/COB, alarm and WhatsApp functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B215.bin",
+  "firmware_size": 1786336,
+  "sha256": "8DF0A3A297395BE370AA58128CA15B83C139DCEEDC72375813937B50B69D0EA8"
 }
