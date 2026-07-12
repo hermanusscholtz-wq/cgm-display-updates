@@ -1,15 +1,14 @@
 {
-  "product": "leah-cgm-display",
-  "display_name": "Leah 2R Displays",
+  "product": "Leah 2R Displays",
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 209,
+  "build": 211,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 209 standardises the official product branding to Leah 2R Displays across the firmware identity, startup screens, setup hotspot, mDNS alias, default device name, local display messages, Web UI, Wi-Fi page and WhatsApp test messages. Known legacy default device names stored in NVS are migrated to Leah 2R Displays while caregiver-defined custom names are preserved. Build 208 alarm snooze reset-on-clear behaviour and all final Build 207 display, trend, Nightscout, sensor SAGE, IOB/COB and OTA safety functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/LeahR2_MSP4021_V14_44_B209.bin",
-  "firmware_size": 1769152,
-  "sha256": "D9004292A170A22EC941BF6BBB113D4E5C11A0B524F7214379D8D62231705A0B"
+  "release_notes": "V14.44 build 211 beta corrects the NO DATA WhatsApp message to use the official Leah 2R Displays name instead of the legacy R2 wording. This release remains on the beta OTA channel for field testing; beta selection stays enabled and the default update channel remains beta. Build 210 vision, mission and customer-defined local alias, Build 208 snooze reset-on-clear, and all display, Nightscout, SAGE, IOB/COB and OTA safety functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B211.bin",
+  "firmware_size": 1774272,
+  "sha256": "DB5BDE98DB4C2B5D74032CC4E1AAE823EE61F9EAF6BC4C746A97CDA6E906DDCA"
 }
