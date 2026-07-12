@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 210,
+  "build": 211,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 210 updates the Leah 2R Displays vision and mission. The full vision is shown on the startup vision screen, while the Web UI shows both vision and mission above Current status. First-time Wi-Fi setup now requires the customer to choose a memorable local .local address; friendly input such as Mat CGM 1.local is normalised to mat-cgm-1.local, stored in NVS and can be edited later from the dashboard or Wi-Fi page. Build 209 branding, Build 208 snooze reset-on-clear and all final display, Nightscout, IOB/COB, SAGE and OTA safety functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B210.bin",
-  "firmware_size": 1774240,
-  "sha256": "9384BF2D921BBE7E6ADDD47E999680C219C207681ACF385D133E0E5CBC658EC8"
+  "release_notes": "V14.44 build 211 beta corrects the NO DATA WhatsApp message to use the official Leah 2R Displays name instead of the legacy R2 wording. This release remains on the beta OTA channel for field testing; beta selection stays enabled and the default update channel remains beta. Build 210 vision, mission and customer-defined local alias, Build 208 snooze reset-on-clear, and all display, Nightscout, SAGE, IOB/COB and OTA safety functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B211.bin",
+  "firmware_size": 1774272,
+  "sha256": "DB5BDE98DB4C2B5D74032CC4E1AAE823EE61F9EAF6BC4C746A97CDA6E906DDCA"
 }
