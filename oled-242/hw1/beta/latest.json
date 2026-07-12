@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.35-beta",
-  "build": 59,
+  "latest_version": "0.12.36-beta",
+  "build": 60,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 59. Updates all human-visible product branding to Leah 2R Displays across the firmware, OLED startup messages, Wi-Fi setup portal, web UI, WhatsApp messages, diagnostics, and support labels. Retains the existing OTA product identifier and leah-2r-242.local alias for backward compatibility. Includes configurable local buzzer mute duration, live mute remaining status, per-alarm buzzer selection, alarm-episode snooze reset, Nightscout SAGE and IOB/COB auto-read, midnight-to-midnight daily bolus totals, centered night screen, caregiver WhatsApp routing, and Wi-Fi profile handling.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_35_BETA_OLED242_BUILD59.bin",
-  "firmware_size": 1524592,
-  "sha256": "EF7A2C22E12A58B3735BC93B850D5E3A42A3CB8CF9334E700AF779467F122667"
+  "release_notes": "OLED 2.42 beta build 60. Updates the Leah 2R Displays vision and mission. Shows the vision during OLED startup and places the full vision and mission above Current status in the web UI. Adds a customer-defined local mDNS alias during initial Wi-Fi setup and under Patient & display settings. User-entered aliases are normalized for .local access and stored in NVS. Retains Nightscout SAGE and IOB/COB auto-read, midnight-to-midnight daily bolus totals, local buzzer mute controls, alarm-episode snooze reset, night display, caregiver WhatsApp routing, and Wi-Fi profile handling.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_36_BETA_OLED242_BUILD60.bin",
+  "firmware_size": 1530176,
+  "sha256": "A0FDD953E2BFCDAEAD756E9113B67E116A582D30911D15CD07CA3629ECFF89E3"
 }
