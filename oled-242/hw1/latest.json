@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.11.3",
-  "build": 21,
+  "latest_version": "0.12.37-beta",
+  "build": 61,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Beta release adds Leah R2 Care Display startup identity and vision screens while keeping v0.11.2-beta release-channel and UART audio framework behavior.",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/v0.11.3-beta/leah-cgm-display-oled-242-hw1-v0.11.3-beta.bin",
-  "firmware_size": 1308784,
-  "sha256": "356CC76D24DA07ADC18FD6D3174467A5057DD8BA9C9747984571B212EF9FC31A"
+  "release_notes": "OLED 2.42 beta build 61. Corrects sensor-age source and countdown logic. Auto mode now uses Nightscout SAGE only, while Manual mode uses the locally configured sensor start date and time. Manual fields are hidden when Auto mode is selected. Sensor time remaining is calculated from the user-configured wear period minus the active sensor age. Updates the OLED Sensor Data screen and web UI Current status to show consistent sensor age, time left, operating mode, wear period, and age source.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_37_BETA_OLED242_BUILD61.bin",
+  "firmware_size": 1530288,
+  "sha256": "6827303FE798D256FC06865855C6481584D34B906A1E5CE67DD7FE69C414683B"
 }
