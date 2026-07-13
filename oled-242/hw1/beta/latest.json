@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.37-beta",
-  "build": 61,
+  "latest_version": "0.12.38-beta",
+  "build": 62,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 61. Corrects sensor-age source and countdown logic. Auto mode now uses Nightscout SAGE only, while Manual mode uses the locally configured sensor start date and time. Manual fields are hidden when Auto mode is selected. Sensor time remaining is calculated from the user-configured wear period minus the active sensor age. Updates the OLED Sensor Data screen and web UI Current status to show consistent sensor age, time left, operating mode, wear period, and age source.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_37_BETA_OLED242_BUILD61.bin",
-  "firmware_size": 1530288,
-  "sha256": "6827303FE798D256FC06865855C6481584D34B906A1E5CE67DD7FE69C414683B"
+  "release_notes": "OLED 2.42 beta build 62. Updates the local alias presentation to match the Leah 2R Displays 4-inch Web UI. Current status now shows a prominent same-Wi-Fi local address panel, and Patient & display includes a dedicated Local address setup section with live preview, automatic .local formatting and the current full address. Removes the duplicate alias field from Display and night settings. Retains corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, configurable local buzzer controls, alarm-episode snooze reset, daily bolus totals, Wi-Fi profile handling and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_38_BETA_OLED242_BUILD62.bin",
+  "firmware_size": 1532944,
+  "sha256": "E8FC2B394011896C947A7321AB5383D857167E6DE5C392473CC147055B0ACA67"
 }
