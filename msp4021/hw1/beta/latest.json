@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 217,
+  "build": 219,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 217 beta adds recorded carbohydrate totals for today, today and yesterday insulin/carbohydrate summaries, and a timestamped two-day IOB AND COB history under the Insulin activity Web UI. It also adds a selectable Carbs total today main-screen widget and a new COB and IOB TFT screen showing today/yesterday totals and recent treatment rows. Current IOB and COB remain separately labelled from recorded daily insulin and carbohydrate totals. All Build 216 insulin summary, Build 215 Web UI/trend/sensor improvements, Build 214 leah.local default, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B217.bin",
-  "firmware_size": 1803888,
-  "sha256": "CE111534DC45CF1E3DD82B7DF6778EFEFBB65E04CE934CEC443E3F55EEC669CC"
+  "release_notes": "V14.44 build 219 beta removes the duplicated Today and Yesterday totals from the bottom of the Carbs and insulin TFT screen because those totals are already shown in the four summary cards. The treatment-history panel is extended to the bottom of the display and now shows up to seven recent insulin/carbohydrate rows. The duplicate Show carbs and insulin screen button is removed from the insulin Web UI; the screen remains available under Patient & display > Display screen selector. All Build 218 Web UI cleanup, Build 217 daily history and carb widget, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B219.bin",
+  "firmware_size": 1802336,
+  "sha256": "EB45CE552F256DA74710440B3FF75F78E5C37D8F30D0576D6CC0FC5A0F51C3C7"
 }
