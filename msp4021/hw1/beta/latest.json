@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 216,
+  "build": 217,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 216 beta adds Insulin total today and Last insulin with local dose time to Web UI Current status and the Insulin activity section. The existing IOB now and COB now values remain visible, and the insulin section now clearly explains that the daily total is the sum of recorded insulin entries since local midnight rather than the amount still active. All Build 215 Web UI, trend, sensor and local-address improvements, Build 214 leah.local default, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B216.bin",
-  "firmware_size": 1786800,
-  "sha256": "15236945A291B4D7964C2B396073FCBB5502234F902856AD4382F26D873F890E"
+  "release_notes": "V14.44 build 217 beta adds recorded carbohydrate totals for today, today and yesterday insulin/carbohydrate summaries, and a timestamped two-day IOB AND COB history under the Insulin activity Web UI. It also adds a selectable Carbs total today main-screen widget and a new COB and IOB TFT screen showing today/yesterday totals and recent treatment rows. Current IOB and COB remain separately labelled from recorded daily insulin and carbohydrate totals. All Build 216 insulin summary, Build 215 Web UI/trend/sensor improvements, Build 214 leah.local default, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B217.bin",
+  "firmware_size": 1803888,
+  "sha256": "CE111534DC45CF1E3DD82B7DF6778EFEFBB65E04CE934CEC443E3F55EEC669CC"
 }
