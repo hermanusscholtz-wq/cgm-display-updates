@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.40-beta",
-  "build": 64,
+  "latest_version": "0.12.44-beta",
+  "build": 68,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 64. Adds cumulative carbohydrate and insulin administration totals for today and yesterday, shows current IOB and COB separately from administered totals, lists today's insulin and carbohydrate administration times in the web UI, and adds a new COB/IOB Total OLED screen. Fixes ESP32 core 3.3.10 compilation compatibility for daily administration formatting. Retains the customer-defined local alias, corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, local buzzer controls, alarm-episode snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_40_BETA_OLED242_BUILD64.bin",
-  "firmware_size": 1540464,
-  "sha256": "F7ED804B7E078E3C799BDE86B64C292F1C22BEB5FFE141636464C39C24A6783C"
+  "release_notes": "OLED 2.42 beta build 68. Adds clear Today and Yesterday insulin and carbohydrate treatment-history tables in the Web UI, with local day boundaries, administration times and daily totals. Removes the duplicated insulin summary block from the Insulin / bolus section while retaining current IOB and COB in Current status. Completes a declaration and scope audit for the daily-history helper functions and fixes ESP32 Arduino compilation errors related to helper prototypes, custom treatment-row types and event-count variables. Retains the COB/IOB Total OLED screen, customer-defined local alias, corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, local buzzer controls, alarm-episode snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_44_BETA_OLED242_BUILD68.bin",
+  "firmware_size": 1541184,
+  "sha256": "9B3746BD0FCD6B6F82A37588B305CF883EB6373F57C1FFFB9C099D9C97E014AD"
 }
