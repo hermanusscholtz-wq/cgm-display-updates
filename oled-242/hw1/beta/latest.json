@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.38-beta",
-  "build": 62,
+  "latest_version": "0.12.40-beta",
+  "build": 64,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 62. Updates the local alias presentation to match the Leah 2R Displays 4-inch Web UI. Current status now shows a prominent same-Wi-Fi local address panel, and Patient & display includes a dedicated Local address setup section with live preview, automatic .local formatting and the current full address. Removes the duplicate alias field from Display and night settings. Retains corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, configurable local buzzer controls, alarm-episode snooze reset, daily bolus totals, Wi-Fi profile handling and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_38_BETA_OLED242_BUILD62.bin",
-  "firmware_size": 1532944,
-  "sha256": "E8FC2B394011896C947A7321AB5383D857167E6DE5C392473CC147055B0ACA67"
+  "release_notes": "OLED 2.42 beta build 64. Adds cumulative carbohydrate and insulin administration totals for today and yesterday, shows current IOB and COB separately from administered totals, lists today's insulin and carbohydrate administration times in the web UI, and adds a new COB/IOB Total OLED screen. Fixes ESP32 core 3.3.10 compilation compatibility for daily administration formatting. Retains the customer-defined local alias, corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, local buzzer controls, alarm-episode snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_40_BETA_OLED242_BUILD64.bin",
+  "firmware_size": 1540464,
+  "sha256": "F7ED804B7E078E3C799BDE86B64C292F1C22BEB5FFE141636464C39C24A6783C"
 }
