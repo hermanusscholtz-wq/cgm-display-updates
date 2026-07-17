@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 219,
+  "build": 220,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 219 beta removes the duplicated Today and Yesterday totals from the bottom of the Carbs and insulin TFT screen because those totals are already shown in the four summary cards. The treatment-history panel is extended to the bottom of the display and now shows up to seven recent insulin/carbohydrate rows. The duplicate Show carbs and insulin screen button is removed from the insulin Web UI; the screen remains available under Patient & display > Display screen selector. All Build 218 Web UI cleanup, Build 217 daily history and carb widget, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B219.bin",
-  "firmware_size": 1802336,
-  "sha256": "EB45CE552F256DA74710440B3FF75F78E5C37D8F30D0576D6CC0FC5A0F51C3C7"
+  "release_notes": "V14.44 build 220 beta standardises the main glucose-number typography across all seven display layouts. Each main glucose screen now targets the same large FreeSansBold scale used by Glucose + 1-Hour Live Trend. Hero, Care Action, Premium, Bedside, Clinical and Right Trend Rail layouts receive taller glucose-value regions, while automatic fit protection still reduces the scale only when longer values such as 19.9 or 99.9 require it. Unit labels, trend strips, alarm pills and widgets remain separate and readable. All Build 219 carbs/insulin layout changes, Build 217 treatment history, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B220.bin",
+  "firmware_size": 1802304,
+  "sha256": "9E0E73F29F57D9466769832F28B790B7A368859F5DC3B19273A26E39E5649906"
 }
