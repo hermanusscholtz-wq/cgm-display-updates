@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.44-beta",
-  "build": 68,
+  "latest_version": "0.12.45-beta",
+  "build": 69,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 68. Adds clear Today and Yesterday insulin and carbohydrate treatment-history tables in the Web UI, with local day boundaries, administration times and daily totals. Removes the duplicated insulin summary block from the Insulin / bolus section while retaining current IOB and COB in Current status. Completes a declaration and scope audit for the daily-history helper functions and fixes ESP32 Arduino compilation errors related to helper prototypes, custom treatment-row types and event-count variables. Retains the COB/IOB Total OLED screen, customer-defined local alias, corrected Auto and Manual sensor-age logic, Nightscout SAGE and IOB/COB auto-read, local buzzer controls, alarm-episode snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_44_BETA_OLED242_BUILD68.bin",
-  "firmware_size": 1541184,
-  "sha256": "9B3746BD0FCD6B6F82A37588B305CF883EB6373F57C1FFFB9C099D9C97E014AD"
+  "release_notes": "OLED 2.42 beta build 69. Restores a fixed first-time setup hotspot for Leah 2R Displays. The setup SSID is now 'leah 2R - 2.42I' and the fixed Wi-Fi password is 'leah00000000'. Both are shown clearly on the OLED whenever the setup portal opens. The setup portal remains available at 192.168.4.1. Retains Today and Yesterday insulin and carbohydrate history tables, COB/IOB Total OLED screen, customer-defined local alias, Nightscout SAGE and IOB/COB auto-read, sensor Auto and Manual modes, local buzzer controls, snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_45_BETA_OLED242_BUILD69.bin",
+  "firmware_size": 1541008,
+  "sha256": "3760B30C4E5726950385EF4FF1EFC15684AF6204A8FEBE1B806EA7373E121AB"
 }
