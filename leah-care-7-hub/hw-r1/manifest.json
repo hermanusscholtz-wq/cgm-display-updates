@@ -1,1 +1,12 @@
-
+{
+  "product": "leah-care-7-hub",
+  "board": "JC1060P470",
+  "version": "0.7.0-alpha.2",
+  "version_code": 7002,
+  "build": "B007 R2",
+  "channel": "beta",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/B007-R2/leah_care_7_hub.bin",
+  "size_bytes": 1913504,
+  "sha256": "8bd057271bb890009eeae6391aa72c9db9792956f1b3314a8a5ed11455038468",
+  "notes": "First controlled R1-to-R2 OTA acceptance release"
+}
