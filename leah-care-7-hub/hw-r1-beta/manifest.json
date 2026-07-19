@@ -2,7 +2,7 @@
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
   "version": "0.8.0-alpha.3",
-  "version_code": 8002,
+  "version_code": 8003,
   "build": "B008 R3",
   "channel": "beta",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B008-R3/leah_care_7_hub.bin",
