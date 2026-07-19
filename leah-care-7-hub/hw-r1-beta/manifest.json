@@ -1,7 +1,7 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.8.0-alpha.3",
+  "version": "0.8.0-alpha.2",
   "version_code": 8003,
   "build": "B008 R3",
   "channel": "beta",
