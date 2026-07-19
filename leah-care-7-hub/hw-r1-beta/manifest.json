@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.8.0-alpha.1",
-  "version_code": 8001,
-  "build": "B008 R1",
+  "version": "0.8.0-alpha.2",
+  "version_code": 8002,
+  "build": "B008 R2",
   "channel": "beta",
-  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/B008-R1/leah_care_7_hub.bin",
-  "size_bytes": 1922224,
-  "sha256": "ad5ce99344b69c7afe6c83db473eaa7b2d0093aa5f90c0c5b6aba6b94363acc7",
-  "notes": "USB-installed locked-channel beta foundation"
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B008-R2/leah_care_7_hub.bin",
+  "size_bytes": 1871248,
+  "sha256": "75190c1cbf5b9ac75c223c78dac2a5a239fe137a9d779ff7c9570dc1f8e0f386",
+  "notes": "Units, smooth selectable trends and application screen foundation"
 }
