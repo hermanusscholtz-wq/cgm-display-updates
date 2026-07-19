@@ -1,0 +1,12 @@
+{
+  "product": "leah-care-7-hub",
+  "board": "JC1060P470",
+  "version": "0.8.0-alpha.1",
+  "version_code": 8001,
+  "build": "B008 R1",
+  "channel": "beta",
+  "firmware_url": "https://github.com/hermanusscholtz-wq/cgm-display-updates/releases/download/B008-R1/leah_care_7_hub.bin",
+  "size_bytes": 1922224,
+  "sha256": "ad5ce99344b69c7afe6c83db473eaa7b2d0093aa5f90c0c5b6aba6b94363acc7",
+  "notes": "USB-installed locked-channel beta foundation"
+}
