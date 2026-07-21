@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 221,
+  "build": 222,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 221 beta introduces parallel alarm processing. Automatic WhatsApp delivery now runs through a queued FreeRTOS cloud worker instead of blocking the Arduino main loop. TextMeBot caregiver spacing uses non-blocking task delays, urgent low/high jobs are prioritised, and one failed caregiver does not stop the remaining recipients. A dedicated high-priority audio task owns live buzzer pulse timing, so HTTPS/provider activity cannot freeze the buzzer pattern. Urgent low has no long macro silence and normal low uses a five-second macro pause. The Web UI gains an Acknowledge alarm and snooze action; acknowledgement suppresses repeat WhatsApp messages for the current alarm episode while allowing its first notification to finish. Cloud worker, audio-task and maximum-loop-gap diagnostics are shown in Current status. All Build 220 unified glucose fonts and earlier Nightscout, trend, sensor, IOB/COB, OTA and WhatsApp configuration functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B221.bin",
-  "firmware_size": 1819040,
-  "sha256": "2CBEF3BE42D78CA39852C4FD7984C707B72571DD8D09D6DD8C308862A3BDF127"
+  "release_notes": "V14.44 build 222 beta introduces streamed Web UI generation and heap protection. The dashboard is transmitted in small chunks instead of being assembled as one large Arduino String, reducing heap fragmentation and preventing the page from ending early around the WhatsApp section. The selected WhatsApp provider panel is server-rendered correctly, Cloud WhatsApp off is hidden when a provider is active, and heap, stream and FreeRTOS task diagnostics are added. All Build 221 parallel alarm, dedicated buzzer task and background WhatsApp queue functions, Build 220 unified glucose fonts, Nightscout, trend, sensor, IOB/COB, OTA and existing configuration functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B222.bin",
+  "firmware_size": 1827728,
+  "sha256": "41EE7D08ED2F61E7D6FB2479CBD02879726D290A4B090FB0F89AE6489D0B5CE1"
 }
