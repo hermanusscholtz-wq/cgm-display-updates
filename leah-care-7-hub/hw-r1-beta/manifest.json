@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.8.3-alpha.1",
-  "version_code": 8003,
-  "build": "B008 R3",
+  "version": "0.10.0-alpha.1",
+  "version_code": 10001,
+  "build": "B010 R1",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B008-R3/leah_care_7_hub.bin",
-  "size_bytes": 1958752,
-  "sha256": "0c0032006c1c12f3db574bf54923ec8b0b32f5fab24350fc57de3ba943ab0ee5",
-  "notes": "B008 R3 recovery beta: stable trend summaries and guarded first-boot OTA acceptance"
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B010-R1/leah_care_7_hub.bin",
+  "size_bytes": 2317488,
+  "sha256": "1bbd34beae43bafdb0220b83556067f21418b38aa909be73f8c87951cb9f5a7f",
+  "notes": "B010 R1 reimagined Glance, Clinical 5 and Therapy screens with centred glucose display and corrected date/time keyboard."
 }
