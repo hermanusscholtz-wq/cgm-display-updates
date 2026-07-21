@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.45-beta",
-  "build": 69,
+  "latest_version": "0.12.46-beta",
+  "build": 70,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 69. Restores a fixed first-time setup hotspot for Leah 2R Displays. The setup SSID is now 'leah 2R - 2.42I' and the fixed Wi-Fi password is 'leah00000000'. Both are shown clearly on the OLED whenever the setup portal opens. The setup portal remains available at 192.168.4.1. Retains Today and Yesterday insulin and carbohydrate history tables, COB/IOB Total OLED screen, customer-defined local alias, Nightscout SAGE and IOB/COB auto-read, sensor Auto and Manual modes, local buzzer controls, snooze reset, Wi-Fi profile handling and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_45_BETA_OLED242_BUILD69.bin",
-  "firmware_size": 1541008,
-  "sha256": "3760B30C4E5726950385EF4FF1EFC15684AF6204A8FEBE1B806EA7373E121AB"
+  "release_notes": "OLED 2.42 beta build 70. Removes the alarm-response blocking caused by synchronous WhatsApp delivery. Adds a dedicated FreeRTOS cloud-alert task with queued caregiver notifications and non-blocking TextMeBot recipient spacing. Adds a separate high-priority alarm-audio task so buzzer timing continues accurately during HTTPS and Nightscout activity. The Web UI, buttons and display remain responsive while alerts are delivered. Adds immediate acknowledge-and-snooze handling, alarm episode tracking, provider queue diagnostics, cloud-send timing, queue-depth monitoring and alarm-specific sound and pause behaviour. Retains the fixed setup hotspot SSID 'leah 2R - 2.42I', password 'leah00000000', Today and Yesterday treatment tables, Nightscout SAGE, IOB and COB support, Wi-Fi profiles, local alias and caregiver routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_46_BETA_OLED242_BUILD70.bin",
+  "firmware_size": 1545440,
+  "sha256": "17B38CD6E33FC63E96123E96A72BD2027319E9A70CEB3B892B47F719E7E8C535"
 }
