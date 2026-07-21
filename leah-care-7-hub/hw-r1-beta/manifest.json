@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.10.0-alpha.11",
-  "version_code": 10011,
-  "build": "B0010.r11",
+  "version": "0.10.0-alpha.12",
+  "version_code": 10012,
+  "build": "B0010.r12",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r11/leah_care_7_hub.bin",
-  "size_bytes": 2317488,
-  "sha256": "e3e69d8cfb6707cc89dbcd16b488174b8ef247d2f03e2ac50d14ba15309f2cbd",
-  "notes": "B0010.r11 header and time positioning update."
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r12/leah_care_7_hub.bin",
+  "size_bytes": 2317744,
+  "sha256": "7e2cec598c5b507aa3d0b459618713857cac419a87928157b4ab3c42a38df1b1",
+  "notes": "B0010.r12 steady OTA header and time update."
 }
