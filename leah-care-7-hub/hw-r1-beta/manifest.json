@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.10.0-alpha.13",
-  "version_code": 10013,
-  "build": "B0010.r13",
+  "version": "0.10.0-alpha.14",
+  "version_code": 10014,
+  "build": "B0010.r14",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r13/LeahCare7Hub_B0010.r13_OTA.bin",
-  "size_bytes": 2317488,
-  "sha256": "e41a9dcba8e23211d11ac98a6b0197531bc0ebd0deae3e015e6cc3a372c4ceed",
-  "notes": "B0010.r13 beta OTA release."
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r14/LeahCare7Hub_B0010.r14_OTA.bin",
+  "size_bytes": 2317808,
+  "sha256": "9564221ff3cfb74aae6c3c75bf92ea1cac9e60d67781ada91b33a234d543889d",
+  "notes": "B0010.r14 OTA display flicker fix."
 }
