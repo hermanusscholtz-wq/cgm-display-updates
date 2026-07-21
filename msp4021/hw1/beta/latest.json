@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 220,
+  "build": 221,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 220 beta standardises the main glucose-number typography across all seven display layouts. Each main glucose screen now targets the same large FreeSansBold scale used by Glucose + 1-Hour Live Trend. Hero, Care Action, Premium, Bedside, Clinical and Right Trend Rail layouts receive taller glucose-value regions, while automatic fit protection still reduces the scale only when longer values such as 19.9 or 99.9 require it. Unit labels, trend strips, alarm pills and widgets remain separate and readable. All Build 219 carbs/insulin layout changes, Build 217 treatment history, Build 212 native OTA safeguards and existing Nightscout, SAGE, alarm and WhatsApp functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B220.bin",
-  "firmware_size": 1802304,
-  "sha256": "9E0E73F29F57D9466769832F28B790B7A368859F5DC3B19273A26E39E5649906"
+  "release_notes": "V14.44 build 221 beta introduces parallel alarm processing. Automatic WhatsApp delivery now runs through a queued FreeRTOS cloud worker instead of blocking the Arduino main loop. TextMeBot caregiver spacing uses non-blocking task delays, urgent low/high jobs are prioritised, and one failed caregiver does not stop the remaining recipients. A dedicated high-priority audio task owns live buzzer pulse timing, so HTTPS/provider activity cannot freeze the buzzer pattern. Urgent low has no long macro silence and normal low uses a five-second macro pause. The Web UI gains an Acknowledge alarm and snooze action; acknowledgement suppresses repeat WhatsApp messages for the current alarm episode while allowing its first notification to finish. Cloud worker, audio-task and maximum-loop-gap diagnostics are shown in Current status. All Build 220 unified glucose fonts and earlier Nightscout, trend, sensor, IOB/COB, OTA and WhatsApp configuration functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B221.bin",
+  "firmware_size": 1819040,
+  "sha256": "2CBEF3BE42D78CA39852C4FD7984C707B72571DD8D09D6DD8C308862A3BDF127"
 }
