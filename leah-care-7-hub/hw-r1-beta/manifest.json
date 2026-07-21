@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.10.0-alpha.14",
-  "version_code": 10014,
-  "build": "B0010.r14",
+  "version": "0.10.0-alpha.16",
+  "version_code": 10016,
+  "build": "B0010.r16",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r14/LeahCare7Hub_B0010.r14_OTA.bin",
-  "size_bytes": 2317808,
-  "sha256": "9564221ff3cfb74aae6c3c75bf92ea1cac9e60d67781ada91b33a234d543889d",
-  "notes": "B0010.r14 OTA display flicker fix."
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r16/LeahCare7Hub_B0010.r16_OTA.bin",
+  "size_bytes": 2319904,
+  "sha256": "f3c025ce755061c8ad9d9064121883990b075f4c917a913090a008a8c168922c",
+  "notes": "B0010.r16 alarm colours, dynamic trend scaling and header positioning update."
 }
