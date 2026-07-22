@@ -4,11 +4,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 222,
+  "build": 223,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 222 beta introduces streamed Web UI generation and heap protection. The dashboard is transmitted in small chunks instead of being assembled as one large Arduino String, reducing heap fragmentation and preventing the page from ending early around the WhatsApp section. The selected WhatsApp provider panel is server-rendered correctly, Cloud WhatsApp off is hidden when a provider is active, and heap, stream and FreeRTOS task diagnostics are added. All Build 221 parallel alarm, dedicated buzzer task and background WhatsApp queue functions, Build 220 unified glucose fonts, Nightscout, trend, sensor, IOB/COB, OTA and existing configuration functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B222.bin",
-  "firmware_size": 1827728,
-  "sha256": "41EE7D08ED2F61E7D6FB2479CBD02879726D290A4B090FB0F89AE6489D0B5CE1"
+  "release_notes": "V14.44 build 223 beta moves engineering runtime diagnostics out of the basic Current status view and into Advanced setup. Cloud worker, audio task, maximum loop gap, streamed Web UI, heap and task-headroom diagnostics are shown only when Advanced View is enabled. Basic View keeps the normal glucose, Nightscout, alarm, insulin, sensor, trend and Wi-Fi status tiles uncluttered. NVS diagnostics are also restricted to Advanced View. All Build 222 streamed Web UI and heap protection, Build 221 parallel alarm and background WhatsApp processing, Build 220 unified glucose fonts, Nightscout, trend, sensor, IOB/COB, OTA and existing configuration functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B223.bin",
+  "firmware_size": 1828464,
+  "sha256": "157E400ED5747ADA63363EAB650CBCFD488CE8963557C7BBB71CFBD680218EE6"
 }
