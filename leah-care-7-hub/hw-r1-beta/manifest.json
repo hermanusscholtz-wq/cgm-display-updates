@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.10.0-alpha.16",
-  "version_code": 10016,
-  "build": "B0010.r16",
+  "version": "0.10.0-alpha.26",
+  "version_code": 10026,
+  "build": "B0010.r26",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r16/LeahCare7Hub_B0010.r16_OTA.bin",
-  "size_bytes": 2319904,
-  "sha256": "f3c025ce755061c8ad9d9064121883990b075f4c917a913090a008a8c168922c",
-  "notes": "B0010.r16 alarm colours, dynamic trend scaling and header positioning update."
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r26/LeahCare7Hub_B0010.r26_OTA.bin",
+  "size_bytes": 2387920,
+  "sha256": "13096cbeb65ce2a9f0a25a06015994806103d6ea8ea34a2f9c688d2dea150142",
+  "notes": "B0010.r26 UI polish update with trend-header cleanup, relocated Nightscout backfill control, improved sensor-page spacing and refined input cursor styling."
 }
