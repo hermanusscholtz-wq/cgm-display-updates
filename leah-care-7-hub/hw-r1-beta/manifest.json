@@ -1,12 +1,12 @@
 {
   "product": "leah-care-7-hub",
   "board": "JC1060P470",
-  "version": "0.10.0-alpha.26",
-  "version_code": 10026,
-  "build": "B0010.r26",
+  "version": "0.10.0-alpha.27",
+  "version_code": 10027,
+  "build": "B0010.r27",
   "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r26/LeahCare7Hub_B0010.r26_OTA.bin",
-  "size_bytes": 2387920,
-  "sha256": "13096cbeb65ce2a9f0a25a06015994806103d6ea8ea34a2f9c688d2dea150142",
-  "notes": "B0010.r26 UI polish update with trend-header cleanup, relocated Nightscout backfill control, improved sensor-page spacing and refined input cursor styling."
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r27/LeahCare7Hub_B0010.r27_OTA.bin",
+  "size_bytes": 2388320,
+  "sha256": "b4b01e8eba0e0eafb0cf90fb2aaf01ba7c0284d87094689edaa1f9c9b8d6ea70",
+  "notes": "B0010.r27 OTA display-stability update with internal-RAM download buffering, throttled progress redraws, OTA quiet mode and Core 1 OTA task execution."
 }
