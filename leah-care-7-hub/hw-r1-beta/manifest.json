@@ -8,6 +8,6 @@
   "channel": "beta",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r35/LeahCare7Hub_B0010.r35_OTA.bin",
   "size_bytes": 2402832,
-  "sha256": "2d37827bcf2b49676cd6a03f2944a60507e852da4d6c7f519e28a5a05cbe8068",
+  "sha256": "390033f77df520897ebc60396ea0836981c7294a78a671da304a599c87cc89fe",
   "notes": "Initial beta baseline. C6 updater removed. Requires ESP-Hosted C6 firmware 2.12.9. Includes universal six-second P4/C6 boot stabilization, boot NO DATA gating and sensor-expiry reminders."
 }
