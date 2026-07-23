@@ -2,12 +2,12 @@
     "product":  "leah-care-7-hub",
     "board":  "JC1060P470",
     "hardware":  "HW-R1",
-    "version":  "0.10.0-alpha.37",
-    "version_code":  10037,
-    "build":  "B0010.r37",
+    "version":  "0.10.0-alpha.38",
+    "version_code":  10038,
+    "build":  "B0010.r38",
     "channel":  "beta",
-    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r37/LeahCare7Hub_B0010.r37_OTA.bin",
-    "size_bytes":  2416656,
-    "sha256":  "f74aae1c23367210b08a688f6e3b8446466e75c44997afe14ee9f79d08a10a66",
-    "notes":  "B0010.r37 known Wi-Fi recovery. Stores up to 10 saved networks, retries the last profile, scans and reconnects to the strongest usable known SSID, validates IP/DNS/clock/HTTPS, prompts for Wi-Fi Settings when none is available, and rescans after 15/30/60 seconds. Retains static no-flicker OTA, full-file SHA-256, six-second P4/C6 stabilization, C6 ESP-Hosted 2.12.9, NO DATA gating and sensor-expiry reminders."
+    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r38/LeahCare7Hub_B0010.r38_OTA.bin",
+    "size_bytes":  2422912,
+    "sha256":  "f011392e4209cd7ab25e5d81eb24e22e972bd6ed4026051b08ef492274f4392a",
+    "notes":  "B0010.r38 display and Wi-Fi stability candidate. Uses a dedicated static OTA cover, permits foreground scans while connected with HTTPS/radio exclusion, reconstructs DHCP/DNS/clock/HTTPS status, disables C6 Wi-Fi power save where supported, and shows a hysteretic full-width poor-signal/offline header warning. Retains ten saved profiles, strongest-known-network recovery, full-file SHA-256, six-second P4/C6 stabilization, C6 ESP-Hosted 2.12.9, NO DATA gating and sensor-expiry reminders."
 }
