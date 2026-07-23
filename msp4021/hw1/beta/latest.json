@@ -1,14 +1,15 @@
 {
-  "product": "Leah 2R Displays",
+  "product": "leah-cgm-display",
+  "display_name": "Leah 2R Displays",
   "model": "msp4021",
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 223,
+  "build": 224,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 223 beta moves engineering runtime diagnostics out of the basic Current status view and into Advanced setup. Cloud worker, audio task, maximum loop gap, streamed Web UI, heap and task-headroom diagnostics are shown only when Advanced View is enabled. Basic View keeps the normal glucose, Nightscout, alarm, insulin, sensor, trend and Wi-Fi status tiles uncluttered. NVS diagnostics are also restricted to Advanced View. All Build 222 streamed Web UI and heap protection, Build 221 parallel alarm and background WhatsApp processing, Build 220 unified glucose fonts, Nightscout, trend, sensor, IOB/COB, OTA and existing configuration functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B223.bin",
-  "firmware_size": 1828464,
-  "sha256": "157E400ED5747ADA63363EAB650CBCFD488CE8963557C7BBB71CFBD680218EE6"
+  "release_notes": "V14.44 build 224 restores dependable 1-hour mini-trend recovery for the later parallel runtime. The mini-trend now starts its own lightweight one-hour Nightscout history request 15 seconds after startup, retries independently until useful glucose coverage is available, uses strict lightweight SGV and date parsing, anchors live samples to their actual Nightscout entry timestamps, and no longer counts zero-value gap placeholders as a successful history backfill. Existing alarm acknowledgement, parallel audio and WhatsApp runtime, Web UI heap protection, runtime diagnostics and OTA safety functions are preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/LeahR2_MSP4021_V14_44_B224.bin",
+  "firmware_size": 1832064,
+  "sha256": "2899A16A346DDFAE4DE794CC996221EFCB79966F6656895E26038E2EE99A2366"
 }
