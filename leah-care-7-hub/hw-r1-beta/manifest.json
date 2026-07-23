@@ -2,12 +2,12 @@
     "product":  "leah-care-7-hub",
     "board":  "JC1060P470",
     "hardware":  "HW-R1",
-    "version":  "0.10.0-alpha.38",
-    "version_code":  10038,
-    "build":  "B0010.r38",
+    "version":  "0.10.0-alpha.39",
+    "version_code":  10039,
+    "build":  "B0010.r39",
     "channel":  "beta",
-    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r38/LeahCare7Hub_B0010.r38_OTA.bin",
-    "size_bytes":  2422912,
-    "sha256":  "f011392e4209cd7ab25e5d81eb24e22e972bd6ed4026051b08ef492274f4392a",
-    "notes":  "B0010.r38 display and Wi-Fi stability candidate. Uses a dedicated static OTA cover, permits foreground scans while connected with HTTPS/radio exclusion, reconstructs DHCP/DNS/clock/HTTPS status, disables C6 Wi-Fi power save where supported, and shows a hysteretic full-width poor-signal/offline header warning. Retains ten saved profiles, strongest-known-network recovery, full-file SHA-256, six-second P4/C6 stabilization, C6 ESP-Hosted 2.12.9, NO DATA gating and sensor-expiry reminders."
+    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r39/LeahCare7Hub_B0010.r39_OTA.bin",
+    "size_bytes":  2422160,
+    "sha256":  "5be707b752cc729116934103577d329788f8d317a4daa4c8f1ee7552f1461156",
+    "notes":  "B0010.r39 simple Wi-Fi recovery. DHCP/IP is the connection acceptance event. Saves up to 10 profiles immediately, attempts every visible saved SSID strongest first without an RSSI rejection gate, uses a 30-second DHCP window, prompts when no known network is visible, and validates DNS/clock/HTTPS quietly in the background without disconnecting a working Wi-Fi link. Retains r38 static OTA display protection, signal warnings, C6 ESP-Hosted 2.12.9, full-file SHA-256 and six-second boot stabilization."
 }
