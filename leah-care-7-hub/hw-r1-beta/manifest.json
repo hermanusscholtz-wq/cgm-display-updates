@@ -2,12 +2,12 @@
     "product":  "leah-care-7-hub",
     "board":  "JC1060P470",
     "hardware":  "HW-R1",
-    "version":  "0.10.0-alpha.41",
-    "version_code":  10041,
-    "build":  "B0010.r41",
+    "version":  "0.10.0-alpha.43",
+    "version_code":  10043,
+    "build":  "B0010.r43",
     "channel":  "beta",
-    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r41/LeahCare7Hub_B0010.r41_OTA.bin",
-    "size_bytes":  2419872,
-    "sha256":  "7cd3d3e1aa16dd7977ea0c106b979c8da6ad98040ea45373fcba15f47b82ba7e",
-    "notes":  "B0010.r41 restores simple Wi-Fi recovery on the corrected r40 baseline. DHCP/IP accepts and saves the profile immediately; DNS, clock and HTTPS validate quietly in the background and never disconnect a working link. Up to 10 Wi-Fi profiles, no RSSI rejection threshold, 30-second DHCP window, 15/30/60-second saved-network rescans, two-state Wi-Fi screen and local masked-password reveal. ESP-Hosted C6 2.12.9 remains external."
+    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r43/LeahCare7Hub_B0010.r43_OTA.bin",
+    "size_bytes":  2423584,
+    "sha256":  "6e7c259036fe111cc56807e2b65f3676ae83c1617b7bdf3ef499d9527b686aff",
+    "notes":  "B0010.r43 adds independent Nightscout Sensor Start/Stop control, local-only make/model/serial storage, STOPPED/ACTIVE confirmation before the next action, draft-safe text entry and faster keyboard response. The r42 OTA CRC correction and r41 simple Wi-Fi recovery behaviour are retained. ESP-Hosted C6 2.12.9 remains external."
 }
