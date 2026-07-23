@@ -2,12 +2,12 @@
     "product":  "leah-care-7-hub",
     "board":  "JC1060P470",
     "hardware":  "HW-R1",
-    "version":  "0.10.0-alpha.39",
-    "version_code":  10039,
-    "build":  "B0010.r39",
+    "version":  "0.10.0-alpha.40",
+    "version_code":  10040,
+    "build":  "B0010.r40",
     "channel":  "beta",
-    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r39/LeahCare7Hub_B0010.r39_OTA.bin",
-    "size_bytes":  2422160,
-    "sha256":  "5be707b752cc729116934103577d329788f8d317a4daa4c8f1ee7552f1461156",
-    "notes":  "B0010.r39 simple Wi-Fi recovery. DHCP/IP is the connection acceptance event. Saves up to 10 profiles immediately, attempts every visible saved SSID strongest first without an RSSI rejection gate, uses a 30-second DHCP window, prompts when no known network is visible, and validates DNS/clock/HTTPS quietly in the background without disconnecting a working Wi-Fi link. Retains r38 static OTA display protection, signal warnings, C6 ESP-Hosted 2.12.9, full-file SHA-256 and six-second boot stabilization."
+    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r40/LeahCare7Hub_B0010.r40_OTA.bin",
+    "size_bytes":  2406240,
+    "sha256":  "91af6c1c3e43fd2378470fc7d9522460a4ec3015608ed17810b28092ff49afba",
+    "notes":  "B0010.r40 restores the proven B008 R2 Wi-Fi screen and single-owner connect/scan workflow while retaining the current 16 MB A/B OTA partition map. ESP-Hosted C6 2.12.9 initializes before history, MIPI-DSI and LVGL allocations. Full power-on uses the guarded restart plus a second six-second C6 hold; OTA, USB and rear resets retain the standard six-second hold. Saves up to 10 Wi-Fi profiles in application NVS. No C6 updater or embedded C6 binary."
 }
