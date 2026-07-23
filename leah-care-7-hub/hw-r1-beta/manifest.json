@@ -1,13 +1,13 @@
 {
-  "product": "leah-care-7-hub",
-  "board": "JC1060P470",
-  "hardware": "HW-R1",
-  "version": "0.10.0-alpha.35",
-  "version_code": 10035,
-  "build": "B0010.r35",
-  "channel": "beta",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r35/LeahCare7Hub_B0010.r35_OTA.bin",
-  "size_bytes": 2402832,
-  "sha256": "2d37827bcf2b49676cd6a03f2944a60507e852da4d6c7f519e28a5a05cbe8068",
-  "notes": "Initial beta baseline. C6 updater removed. Requires ESP-Hosted C6 firmware 2.12.9. Includes universal six-second P4/C6 boot stabilization, boot NO DATA gating and sensor-expiry reminders."
+    "product":  "leah-care-7-hub",
+    "board":  "JC1060P470",
+    "hardware":  "HW-R1",
+    "version":  "0.10.0-alpha.36",
+    "version_code":  10036,
+    "build":  "B0010.r36",
+    "channel":  "beta",
+    "firmware_url":  "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/leah-care-7-hub/hw-r1-beta/releases/B0010.r36/LeahCare7Hub_B0010.r36_OTA.bin",
+    "size_bytes":  2402896,
+    "sha256":  "140fed567e4712ef7234e32c608bb23ea18da6e819ba584fc2e39ecbe01b2cce",
+    "notes":  "B0010.r36 OTA no-flicker update. The OTA page remains static during download while serial progress continues. Retains full-file SHA-256 verification, the universal six-second P4/C6 boot hold, boot NO DATA gating and sensor-expiry reminders."
 }
