@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.37-beta",
-  "build": 61,
+  "latest_version": "0.12.48-beta",
+  "build": 72,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 61. Corrects sensor-age source and countdown logic. Auto mode now uses Nightscout SAGE only, while Manual mode uses the locally configured sensor start date and time. Manual fields are hidden when Auto mode is selected. Sensor time remaining is calculated from the user-configured wear period minus the active sensor age. Updates the OLED Sensor Data screen and web UI Current status to show consistent sensor age, time left, operating mode, wear period, and age source.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_37_BETA_OLED242_BUILD61.bin",
-  "firmware_size": 1530288,
-  "sha256": "6827303FE798D256FC06865855C6481584D34B906A1E5CE67DD7FE69C414683B"
+  "release_notes": "OLED 2.42 beta build 72. Corrects blank OLED and faint buzzer behaviour following a software restart during an active alarm. Forces GPIO25 LOW immediately at startup, resets the tone output, recovers the software I2C bus before SSD1309 initialization, adds a controlled restart sequence, and delays alarm-audio activation until the OLED and Nightscout state are stable. Moves the cloud-alert and alarm-audio tasks to Core 0 to reduce interference with the OLED software-I2C processing on Core 1. Retains the FreeRTOS cloud-alert queue, dedicated buzzer task, fixed setup hotspot, daily insulin and carbohydrate treatment tables, Nightscout SAGE, IOB and COB support, Wi-Fi profiles and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_48_BETA_OLED242_BUILD72.bin",
+  "firmware_size": 1524608,
+  "sha256": "AA6A6425CB1002B19551AA2AC0517C1677933772F9B5052E89FA5A9CF2C5A822"
 }
