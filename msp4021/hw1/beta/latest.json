@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 243,
+  "build": 247,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 243 replaces the newer mini-trend parser with the exact proven B207 mini-trend request, parsing, fallback, FIFO refill and live-update implementation. The 1-hour mini trend now refills through the normal three-minute combined Nightscout backfill and continues with five-minute live FIFO updates. The shared 12-hour glucose RAM buffer and selectable 1-to-12-hour long-trend slices remain unchanged. This build retains the full Leah 2R Displays product feature set, configurable local alias, screen rotation, insulin and carbohydrate history, IOB and COB screens, read-only Nightscout ketone history, WhatsApp alerts, alarm acknowledgement, OTA protections, CPU-efficient trend maintenance, physical forced backfill and the protected full NVS factory reset.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B243.bin",
-  "firmware_size": 1828224,
-  "sha256": "70241E58AF525451456182640F48EB1126138313775D646F00A37747E165684F"
+  "release_notes": "V14.44 build 247 is the compile-corrected 30-minute chunked trend-recovery build. The 12-hour Nightscout history is read in smaller 30-minute windows with controlled service pauses after successive requests, failed-window retry, real-point validation and protection against replacing a better existing RAM trend with a poorer refill. The 1-hour mini trend is rebuilt from the newest hour of the shared 12-hour buffer and uses small 30-minute requests only when additional recovery is required. The build also retains the deliberate local buzzer controls, two-button forced 12-hour and mini-trend backfill, full NVS factory reset, insulin and carbohydrate history, IOB and COB screens, read-only ketone history, WhatsApp alerts, alarm acknowledgement and OTA protections.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B247.bin",
+  "firmware_size": 1831760,
+  "sha256": "31B52DAF9629469BFF5914CA62A4725878903BBADEA3B0A1F3E508430D20B066"
 }
