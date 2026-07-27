@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.52-beta",
-  "build": 76,
+  "latest_version": "0.12.54-beta",
+  "build": 78,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 76. Corrects unintended Wi-Fi loss when opening Advanced settings or saving unrelated configuration. Separates the page-view control from the main settings form, adds a five-second Wi-Fi grace period, uses non-destructive soft reconnect before stored-profile recovery, and prevents brief Wi-Fi status changes from clearing the DHCP address. Defers Nightscout SAGE refresh after settings changes and restarts mDNS only when the local alias changes. Retains persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, independent OTA restart guard, fixed setup hotspot, dedicated cloud-alert and buzzer tasks, daily treatment history, Nightscout SAGE, IOB and COB support, and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_52_BETA_OLED242_BUILD76.bin",
-  "firmware_size": 1540688,
-  "sha256": "AB76607B6236DD8C7A09AFDA44636882D282AB93300650D001239A4525E5F210"
+  "release_notes": "OLED 2.42 beta build 78. Adds automatic Nightscout treatment backfill two minutes after startup and checks for new or edited insulin and carbohydrate treatments every minute. Treatment history, daily totals and administration times remain cached in RAM for the OLED and Web UI. Adds a manual treatment backfill by holding both physical buttons for more than two seconds, without triggering the individual button actions. Failed or incomplete treatment requests preserve the last validated RAM data. Adds a lightweight treatment fingerprint check to avoid downloading the full two-day history when no changes are detected. Retains the 30-minute chunked four-hour trend backfill, improved weak-Wi-Fi recovery, persistent Wi-Fi profiles, verified OTA restart handling, full NVS factory reset, dedicated cloud-alert and buzzer tasks, Nightscout SAGE, IOB and COB support, and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_54_BETA_OLED242_BUILD78.bin",
+  "firmware_size": 1554032,
+  "sha256": "F13FD6F864F2641568D2FFF75BDDB8DC0F0A32813E819C6F697DC58788789604"
 }
