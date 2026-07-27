@@ -3,12 +3,15 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.46-beta",
-  "build": 70,
+  "latest_version": "0.12.52-beta",
+  "1",
+  "channel": "beta",
+  "latest_version": "0.12.52-beta",
+  "build": 76,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 70. Removes the alarm-response blocking caused by synchronous WhatsApp delivery. Adds a dedicated FreeRTOS cloud-alert task with queued caregiver notifications and non-blocking TextMeBot recipient spacing. Adds a separate high-priority alarm-audio task so buzzer timing continues accurately during HTTPS and Nightscout activity. The Web UI, buttons and display remain responsive while alerts are delivered. Adds immediate acknowledge-and-snooze handling, alarm episode tracking, provider queue diagnostics, cloud-send timing, queue-depth monitoring and alarm-specific sound and pause behaviour. Retains the fixed setup hotspot SSID 'leah 2R - 2.42I', password 'leah00000000', Today and Yesterday treatment tables, Nightscout SAGE, IOB and COB support, Wi-Fi profiles, local alias and caregiver routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_46_BETA_OLED242_BUILD70.bin",
-  "firmware_size": 1545440,
-  "sha256": "17B38CD6E33FC63E96123E96A72BD2027319E9A70CEB3B892B47F719E7E8C535"
+  "release_notes": "OLED 2.42 beta build 76. Corrects unintended Wi-Fi loss when opening Advanced settings or saving unrelated configuration. Separates the page-view control from the main settings form, adds a five-second Wi-Fi grace period, uses non-destructive soft reconnect before stored-profile recovery, and prevents brief Wi-Fi status changes from clearing the DHCP address. Defers Nightscout SAGE refresh after settings changes and restarts mDNS only when the local alias changes. Retains persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, independent OTA restart guard, fixed setup hotspot, dedicated cloud-alert and buzzer tasks, daily treatment history, Nightscout SAGE, IOB and COB support, and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_52_BETA_OLED242_BUILD76.bin",
+  "firmware_size": 1540688,
+  "sha256": "AB76607B6236DD8C7A09AFDA44636882D282AB93300650D001239A4525E5F210"
 }
