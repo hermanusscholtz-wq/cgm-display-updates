@@ -3,12 +3,15 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.48-beta",
-  "build": 72,
+  "latest_version": "0.12.52-beta",
+  "1",
+  "channel": "beta",
+  "latest_version": "0.12.52-beta",
+  "build": 76,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 72. Corrects blank OLED and faint buzzer behaviour following a software restart during an active alarm. Forces GPIO25 LOW immediately at startup, resets the tone output, recovers the software I2C bus before SSD1309 initialization, adds a controlled restart sequence, and delays alarm-audio activation until the OLED and Nightscout state are stable. Moves the cloud-alert and alarm-audio tasks to Core 0 to reduce interference with the OLED software-I2C processing on Core 1. Retains the FreeRTOS cloud-alert queue, dedicated buzzer task, fixed setup hotspot, daily insulin and carbohydrate treatment tables, Nightscout SAGE, IOB and COB support, Wi-Fi profiles and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_48_BETA_OLED242_BUILD72.bin",
-  "firmware_size": 1524608,
-  "sha256": "AA6A6425CB1002B19551AA2AC0517C1677933772F9B5052E89FA5A9CF2C5A822"
+  "release_notes": "OLED 2.42 beta build 76. Corrects unintended Wi-Fi loss when opening Advanced settings or saving unrelated configuration. Separates the page-view control from the main settings form, adds a five-second Wi-Fi grace period, uses non-destructive soft reconnect before stored-profile recovery, and prevents brief Wi-Fi status changes from clearing the DHCP address. Defers Nightscout SAGE refresh after settings changes and restarts mDNS only when the local alias changes. Retains persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, independent OTA restart guard, fixed setup hotspot, dedicated cloud-alert and buzzer tasks, daily treatment history, Nightscout SAGE, IOB and COB support, and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_52_BETA_OLED242_BUILD76.bin",
+  "firmware_size": 1540688,
+  "sha256": "AB76607B6236DD8C7A09AFDA44636882D282AB93300650D001239A4525E5F210"
 }
