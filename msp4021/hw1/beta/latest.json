@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 224,
+  "build": 242,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 224 restores dependable 1-hour mini-trend recovery for the later parallel runtime. The mini-trend now starts its own lightweight one-hour Nightscout history request 15 seconds after startup, retries independently until useful glucose coverage is available, uses strict lightweight SGV and date parsing, anchors live samples to their actual Nightscout entry timestamps, and no longer counts zero-value gap placeholders as a successful history backfill. Existing alarm acknowledgement, parallel audio and WhatsApp runtime, Web UI heap protection, runtime diagnostics and OTA safety functions are preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B224.bin",
-  "firmware_size": 1832064,
-  "sha256": "2899A16A346DDFAE4DE794CC996221EFCB79966F6656895E26038E2EE99A2366"
+  "release_notes": "V14.44 build 242 retains the full Leah 2R Displays product feature set while using the proven B207 Nightscout and trend-backfill foundation. It fixes the 1-hour mini-trend parser so complete Nightscout JSON objects, nested fields, date or mills timestamps and real CGM entry times are handled correctly. The long glucose trend remains one shared 12-hour RAM buffer with selectable 1-to-12-hour display slices. This build also adds a protected Web UI factory reset that erases all NVS settings only after the user types RESET, then restarts into first-time setup. Read-only Nightscout ketone history, insulin and carbohydrate history, configurable local alias, screen rotation, alarm acknowledgement, WhatsApp alerts, OTA protections, CPU-efficient trend maintenance and physical forced backfill remain active.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B242.bin",
+  "firmware_size": 1830336,
+  "sha256": "3BFFB983AFF793C0F8AC5CDE1CBFE007E730D3C1FB46F334BE69FAF4A0D396F3"
 }
