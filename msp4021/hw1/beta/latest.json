@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 247,
+  "build": 248,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 247 provides compile-corrected, reliable 30-minute chunked Nightscout trend recovery. It maintains one shared 12-hour RAM buffer, retries failed windows, pauses after successive reads to service alarms and the user interface, prevents poorer backfills from replacing better cached history, and rebuilds the 1-hour mini trend from the latest shared-buffer data. It retains deliberate buzzer controls, dual-button forced backfill, factory reset, insulin and carbohydrate history, IOB and COB screens, read-only ketone history, WhatsApp alerts, alarm acknowledgement and OTA protections.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B247.bin",
-  "firmware_size": 1831760,
-  "sha256": "31B52DAF9629469BFF5914CA62A4725878903BBADEA3B0A1F3E508430D20B066"
+  "release_notes": "V14.44 build 248 adds a saved WebUI checkbox under Local buzzer sounds for controlling the physical buzzer master. Disabling it immediately silences the local buzzer without affecting visual alarms, WhatsApp alerts, glucose monitoring or alarm acknowledgement. Re-enabling allows an active alarm to resume unless it is snoozed. The WebUI and GPIO32 controls share the same authoritative alarmSoundEnabled state and NVS configuration. Existing physical controls, 30-minute chunked Nightscout recovery, shared 12-hour trend buffer, mini-trend recovery, dual-button forced backfill, factory reset, insulin and carbohydrate history, ketone history and OTA protections remain active.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B248.bin",
+  "firmware_size": 1832176,
+  "sha256": "DBEF1AEEB811FB3AC7AA46E5F521E999F6AB61765B61921775C4340708140AC6"
 }
