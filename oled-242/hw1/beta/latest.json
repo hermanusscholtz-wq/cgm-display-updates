@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.54-beta",
-  "build": 78,
+  "latest_version": "0.12.66-beta",
+  "build": 90,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 78. Adds automatic Nightscout treatment backfill two minutes after startup and checks for new or edited insulin and carbohydrate treatments every minute. Treatment history, daily totals and administration times remain cached in RAM for the OLED and Web UI. Adds a manual treatment backfill by holding both physical buttons for more than two seconds, without triggering the individual button actions. Failed or incomplete treatment requests preserve the last validated RAM data. Adds a lightweight treatment fingerprint check to avoid downloading the full two-day history when no changes are detected. Retains the 30-minute chunked four-hour trend backfill, improved weak-Wi-Fi recovery, persistent Wi-Fi profiles, verified OTA restart handling, full NVS factory reset, dedicated cloud-alert and buzzer tasks, Nightscout SAGE, IOB and COB support, and caregiver WhatsApp routing.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_54_BETA_OLED242_BUILD78.bin",
-  "firmware_size": 1554032,
-  "sha256": "F13FD6F864F2641568D2FFF75BDDB8DC0F0A32813E819C6F697DC58788789604"
+  "release_notes": "OLED 2.42 beta build 90. Adds a Web UI button under OLED screen controls to start a complete four-hour trend and 48-hour treatment backfill. The backfill uses the existing low-priority background worker, retains live-glucose priority, checks Nightscout and Wi-Fi availability, and prevents duplicate backfill requests. Moves cloud queue, cloud send, alarm episode, last cloud send, loop timing, task state, FIFO state, trend progress, treatment progress and queue-drop diagnostics into Advanced view. Retains the persistent Web UI local-buzzer master checkbox, physical buzzer controls, pre-TLS response allocation, fully released TLS retry, bounded Nightscout history requests, serialized secure connections, persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, Nightscout SAGE, IOB and COB support, daily treatment history and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_66_BETA_OLED242_BUILD90.bin",
+  "firmware_size": 1580944,
+  "sha256": "F30453A4B5BB8D012CC21A0B6F96F18C7B9C0D50546926B5916CD1858C70EE66"
 }
