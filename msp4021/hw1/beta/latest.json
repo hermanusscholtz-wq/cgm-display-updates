@@ -8,7 +8,7 @@
   "build": 247,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 247 is the compile-corrected 30-minute chunked trend-recovery build. The 12-hour Nightscout history is read in smaller 30-minute windows with controlled service pauses after successive requests, failed-window retry, real-point validation and protection against replacing a better existing RAM trend with a poorer refill. The 1-hour mini trend is rebuilt from the newest hour of the shared 12-hour buffer and uses small 30-minute requests only when additional recovery is required. The build also retains the deliberate local buzzer controls, two-button forced 12-hour and mini-trend backfill, full NVS factory reset, insulin and carbohydrate history, IOB and COB screens, read-only ketone history, WhatsApp alerts, alarm acknowledgement and OTA protections.",
+  "release_notes": "V14.44 build 247 provides compile-corrected, reliable 30-minute chunked Nightscout trend recovery. It maintains one shared 12-hour RAM buffer, retries failed windows, pauses after successive reads to service alarms and the user interface, prevents poorer backfills from replacing better cached history, and rebuilds the 1-hour mini trend from the latest shared-buffer data. It retains deliberate buzzer controls, dual-button forced backfill, factory reset, insulin and carbohydrate history, IOB and COB screens, read-only ketone history, WhatsApp alerts, alarm acknowledgement and OTA protections.",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B247.bin",
   "firmware_size": 1831760,
   "sha256": "31B52DAF9629469BFF5914CA62A4725878903BBADEA3B0A1F3E508430D20B066"
