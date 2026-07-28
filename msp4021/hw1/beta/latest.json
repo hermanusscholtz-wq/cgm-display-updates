@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 248,
+  "build": 249,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 248 adds a saved WebUI checkbox under Local buzzer sounds for controlling the physical buzzer master. Disabling it immediately silences the local buzzer without affecting visual alarms, WhatsApp alerts, glucose monitoring or alarm acknowledgement. Re-enabling allows an active alarm to resume unless it is snoozed. The WebUI and GPIO32 controls share the same authoritative alarmSoundEnabled state and NVS configuration. Existing physical controls, 30-minute chunked Nightscout recovery, shared 12-hour trend buffer, mini-trend recovery, dual-button forced backfill, factory reset, insulin and carbohydrate history, ketone history and OTA protections remain active.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B248.bin",
-  "firmware_size": 1832176,
-  "sha256": "DBEF1AEEB811FB3AC7AA46E5F521E999F6AB61765B61921775C4340708140AC6"
+  "release_notes": "V14.44 build 249 adds dynamic vertical scaling to the 1-hour mini trend, selectable 1-to-12-hour glucose trend and insulin-activity screen. Each graph scales from the values visible in its selected time window, includes the configured glucose limits, adds proportional headroom and prevents readings above 15 mmol/L from being clipped. The mini trend now includes gap-aware connecting lines and colored points. The insulin screen dynamically scales both its glucose overlay and IOB axis. Existing Nightscout recovery, shared 12-hour RAM buffer, mini-trend backfill, WebUI buzzer control, physical buzzer controls, dual-button forced backfill, ketone history, WhatsApp alerts, factory reset and OTA protections remain active.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B249.bin",
+  "firmware_size": 1832960,
+  "sha256": "F8DEE2CF6AA67511133AEE6FBA0FB4545E0E77D6ED7110A57D34E040E05BFD95"
 }
