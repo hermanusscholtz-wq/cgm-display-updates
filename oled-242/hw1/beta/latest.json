@@ -7,7 +7,8 @@
   "build": 97,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 97. Adds a Web UI button under OLED screen controls to start a complete four-hour trend and 48-hour treatment backfill. The backfill uses the existing low-priority background worker, retains live-glucose priority, checks Nightscout and Wi-Fi availability, and prevents duplicate backfill requests. Moves cloud queue, cloud send, alarm episode, last cloud send, loop timing, task state, FIFO state, trend progress, treatment progress and queue-drop diagnostics into Advanced view. Retains the persistent Web UI local-buzzer master checkbox, physical buzzer controls, pre-TLS response allocation, fully released TLS retry, bounded Nightscout history requests, serialized secure connections, persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, Nightscout SAGE, IOB and COB support, daily treatment history and caregiver WhatsApp routing.",
+  "release_notes": "OLED 2.42 beta build 97, based on stable build 72. Adds right-button release controls: short press snoozes, 3 to 9.9 seconds arms the buzzer, and 10 seconds switches it off. Buzzer confirmation screens remain visible for three seconds, with a solid circle showing when armed. Adds a persistent Web UI buzzer checkbox. Trend data uses a fixed 96-slot circular RAM FIFO, refreshes at boot, appends live readings, detects gaps, performs bounded one-hour repairs, and supports complete four-hour backfill from the Web UI or by holding both physical buttons for two seconds.",
   "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_73_BETA_OLED242_BUILD97.bin",
-  "firmware_size": 1528912,
-  "sha256": "92996FA95F289A438CFA64D3D4A661E0AB69EC15D54A4EAD3C41FA3E3D82C343"
+  "firmware_size": 1534448,
+  "sha256": "636CBE22C2206A914E0295BD3C816F9B2B8DA843F81107235C09E059B7AC6E54"
+}
