@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 249,
+  "build": 250,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 249 adds dynamic vertical scaling to the 1-hour mini trend, selectable 1-to-12-hour glucose trend and insulin-activity screen. Each graph scales from the values visible in its selected time window, includes the configured glucose limits, adds proportional headroom and prevents readings above 15 mmol/L from being clipped. The mini trend now includes gap-aware connecting lines and colored points. The insulin screen dynamically scales both its glucose overlay and IOB axis. Existing Nightscout recovery, shared 12-hour RAM buffer, mini-trend backfill, WebUI buzzer control, physical buzzer controls, dual-button forced backfill, ketone history, WhatsApp alerts, factory reset and OTA protections remain active.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B249.bin",
-  "firmware_size": 1832960,
-  "sha256": "F8DEE2CF6AA67511133AEE6FBA0FB4545E0E77D6ED7110A57D34E040E05BFD95"
+  "release_notes": "V14.44 build 250 adds a live authenticated Web UI firmware-update progress page showing percentage, downloaded and total bytes, transfer speed, download verification, finalization and restart status. During OTA, Nightscout reads, trend backfill, WhatsApp requests, screen navigation and normal TFT drawing are paused to protect the update. Existing care-alarm abort handling, SHA-256 validation, native ESP-IDF image verification, boot-partition confirmation and restart safeguards remain active. B249 dynamic scaling for the 1-hour mini trend, selectable 1-to-12-hour glucose trend, insulin glucose overlay and IOB graph is retained.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B250.bin",
+  "firmware_size": 1843488,
+  "sha256": "FBD3C972B7971BD5876450A1E7FEE88B870F7EE43B73609DE7F4D594B15C4E97"
 }
