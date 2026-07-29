@@ -3,12 +3,11 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.68-beta",
-  "build": 92,
+  "latest_version": "0.12.73-beta",
+  "build": 97,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 92. Keeps local-buzzer mute and buzzer-master OFF/ON confirmation messages visible on the OLED for five seconds after physical RIGHT-button or Web UI actions. Uses a non-blocking screen hold so Web access, Nightscout, alerts and background processing continue normally, prevents routine glucose/alarm refreshes and screen cycling from overwriting the confirmation, and defers backfill completion messages until the hold ends. Retains Build91 asynchronous OTA, high-priority Web UI service, live OTA progress, exclusive firmware-transfer TLS slot, 4096-byte streaming buffer and fast socket yield.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_68_BETA_OLED242_BUILD92.bin",
-  "firmware_size": 1589152,
-  "sha256": "B664FB1C978691C848828425437AC45B753BD3011336EDDED049C45109C301B8"
-}
+  "release_notes": "OLED 2.42 beta build 97. Adds a Web UI button under OLED screen controls to start a complete four-hour trend and 48-hour treatment backfill. The backfill uses the existing low-priority background worker, retains live-glucose priority, checks Nightscout and Wi-Fi availability, and prevents duplicate backfill requests. Moves cloud queue, cloud send, alarm episode, last cloud send, loop timing, task state, FIFO state, trend progress, treatment progress and queue-drop diagnostics into Advanced view. Retains the persistent Web UI local-buzzer master checkbox, physical buzzer controls, pre-TLS response allocation, fully released TLS retry, bounded Nightscout history requests, serialized secure connections, persistent three-profile Wi-Fi storage, full NVS factory reset, verified OTA finalization, Nightscout SAGE, IOB and COB support, daily treatment history and caregiver WhatsApp routing.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_73_BETA_OLED242_BUILD97.bin",
+  "firmware_size": 1528912,
+  "sha256": "92996FA95F289A438CFA64D3D4A661E0AB69EC15D54A4EAD3C41FA3E3D82C343"
