@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.73-beta",
-  "build": 97,
+  "latest_version": "0.12.74-beta",
+  "build": 98,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 97, based on stable build 72. Adds right-button release controls: short press snoozes, 3 to 9.9 seconds arms the buzzer, and 10 seconds switches it off. Buzzer confirmation screens remain visible for three seconds, with a solid circle showing when armed. Adds a persistent Web UI buzzer checkbox. Trend data uses a fixed 96-slot circular RAM FIFO, refreshes at boot, appends live readings, detects gaps, performs bounded one-hour repairs, and supports complete four-hour backfill from the Web UI or by holding both physical buttons for two seconds.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_73_BETA_OLED242_BUILD97.bin",
-  "firmware_size": 1534448,
-  "sha256": "636CBE22C2206A914E0295BD3C816F9B2B8DA843F81107235C09E059B7AC6E54"
+  "release_notes": "OLED 2.42 beta build 98, based on stable build 72. Adds right-button release controls: short press snoozes, 3 to 9.9 seconds arms the buzzer, and 10 seconds switches it off. Buzzer confirmation screens remain visible for three seconds, with a solid circle showing when armed. Adds a persistent Web UI buzzer checkbox. Trend data uses a fixed 96-slot circular RAM FIFO, refreshes at boot, appends live readings, detects gaps, performs bounded one-hour repairs, and supports complete four-hour backfill from the Web UI or by holding both physical buttons for two seconds.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_74_BETA_OLED242_BUILD98.bin",
+  "firmware_size": 1548624,
+  "sha256": "2AD355EF3BA93A5FA57CA2E65EE6C30740A31599400C28204CEE8BC31FDBC7CE"
 }
