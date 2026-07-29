@@ -3,12 +3,12 @@
   "model": "oled-242",
   "hardware_rev": "hw1",
   "channel": "beta",
-  "latest_version": "0.12.74-beta",
-  "build": 98,
+  "latest_version": "0.12.75-beta",
+  "build": 99,
   "critical": false,
   "mandatory": false,
-  "release_notes": "OLED 2.42 beta build 98, based on stable build 72. Adds right-button release controls: short press snoozes, 3 to 9.9 seconds arms the buzzer, and 10 seconds switches it off. Buzzer confirmation screens remain visible for three seconds, with a solid circle showing when armed. Adds a persistent Web UI buzzer checkbox. Trend data uses a fixed 96-slot circular RAM FIFO, refreshes at boot, appends live readings, detects gaps, performs bounded one-hour repairs, and supports complete four-hour backfill from the Web UI or by holding both physical buttons for two seconds.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_74_BETA_OLED242_BUILD98.bin",
-  "firmware_size": 1548624,
-  "sha256": "2AD355EF3BA93A5FA57CA2E65EE6C30740A31599400C28204CEE8BC31FDBC7CE"
+  "release_notes": "OLED 2.42 beta build 99. Rebuilds lost-Wi-Fi recovery around one clean scan of all stored profiles every five seconds and explicitly connects to a visible stored SSID regardless of RSSI, including signals weaker than -85 dBm. Removes the blind reconnect that could leave the ESP32 station stuck in a connecting state, keeps an otherwise connected Wi-Fi link intact through transient Nightscout errors, and restarts the local alias after recovery. Current status now hides Trend FIFO and cloud/task diagnostics unless Advanced technical settings is enabled, shows the local buzzer master as a compact status-grid control box, and places four-hour trend backfill under OLED screen controls. A short right-button release snoozes; ARM now fires while the button remains held at three seconds and OFF fires while it remains held at ten seconds, with three-second confirmation screens. Retains Build 98 responsive live OTA progress and verified installation.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/oled-242/hw1/beta/LEAH_2R_DISPLAYS_V0_12_75_BETA_OLED242_BUILD99.bin",
+  "firmware_size": 1553568,
+  "sha256": "E1D8806D50C82592C8A1227AFCCDAC544D3F68B4D0B680D11EDE599061000558"
 }
