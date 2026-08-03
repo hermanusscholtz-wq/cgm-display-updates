@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 251,
+  "build": 255,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 251 corrects the local .local alias service by introducing a single-owner mDNS lifecycle. The responder starts only after Wi-Fi has a valid IP address and the local web server is ready, stops when Wi-Fi loses its IP, restarts after reconnection or an alias change, and retries automatically if ready, stops when Wi-Fi loses its IP, restarts after reconnection or an alias change, and registration fails. The Web UI reports the actual alias-service state and includes a manual Restart local alias service control. B250 Web OTA progress, 30-minute chunked trend recovery, local buzzer controls, Nightscout functions, alarms, WhatsApp alerts and existing Leah 2R features remain preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B251.bin",
-  "firmware_size": 1846112,
-  "sha256": "10B860A9A365D337E7E7F2C1041BD60D9093E914121E935344531022B4D20951"
+  "release_notes": "V14.44 build 255 adds a user-configurable NO DATA timeout from 5 to 30 minutes beneath the patient-name setting. When the selected glucose-age limit is reached, the display performs a fresh Nightscout verification before declaring NO DATA. It distinguishes confirmed stale glucose from an unreachable Nightscout service and retries verification before activating the NO DATA alarm. This build also corrects the verification compile path by returning the Nightscout read result from updateLatestGlucose. The working OLED242-style mDNS alias sequence, Web OTA progress, OTA TLS retry correction, 30-minute trend recovery, buzzer controls, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B255.bin",
+  "firmware_size": 1854528,
+  "sha256": "CA87864C4A0840F6621423B560FD5B2B183191510CE4366D4C695574EDCB777E"
 }
