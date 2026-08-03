@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 250,
+  "build": 251,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 250 adds a live authenticated Web UI firmware-update progress page showing percentage, downloaded and total bytes, transfer speed, download verification, finalization and restart status. During OTA, Nightscout reads, trend backfill, WhatsApp requests, screen navigation and normal TFT drawing are paused to protect the update. Existing care-alarm abort handling, SHA-256 validation, native ESP-IDF image verification, boot-partition confirmation and restart safeguards remain active. B249 dynamic scaling for the 1-hour mini trend, selectable 1-to-12-hour glucose trend, insulin glucose overlay and IOB graph is retained.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B250.bin",
-  "firmware_size": 1843488,
-  "sha256": "FBD3C972B7971BD5876450A1E7FEE88B870F7EE43B73609DE7F4D594B15C4E97"
+  "release_notes": "V14.44 build 251 corrects the local .local alias service by introducing a single-owner mDNS lifecycle. The responder starts only after Wi-Fi has a valid IP address and the local web server is ready, stops when Wi-Fi loses its IP, restarts after reconnection or an alias change, and retries automatically if ready, stops when Wi-Fi loses its IP, restarts after reconnection or an alias change, and registration fails. The Web UI reports the actual alias-service state and includes a manual Restart local alias service control. B250 Web OTA progress, 30-minute chunked trend recovery, local buzzer controls, Nightscout functions, alarms, WhatsApp alerts and existing Leah 2R features remain preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B251.bin",
+  "firmware_size": 1846112,
+  "sha256": "10B860A9A365D337E7E7F2C1041BD60D9093E914121E935344531022B4D20951"
 }
