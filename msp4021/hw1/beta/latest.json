@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 255,
+  "build": 256,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 255 adds a user-configurable NO DATA timeout from 5 to 30 minutes beneath the patient-name setting. When the selected glucose-age limit is reached, the display performs a fresh Nightscout verification before declaring NO DATA. It distinguishes confirmed stale glucose from an unreachable Nightscout service and retries verification before activating the NO DATA alarm. This build also corrects the verification compile path by returning the Nightscout read result from updateLatestGlucose. The working OLED242-style mDNS alias sequence, Web OTA progress, OTA TLS retry correction, 30-minute trend recovery, buzzer controls, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B255.bin",
-  "firmware_size": 1854528,
-  "sha256": "CA87864C4A0840F6621423B560FD5B2B183191510CE4366D4C695574EDCB777E"
+  "release_notes": "V14.44 build 256 adds a local sound-status indicator to the bottom-left of the night screen. A green dot with SOUND ON indicates that the local buzzer master is enabled, while a red dot with SOUND OFF indicates that it is disabled. The indicator follows the saved Web UI and physical-button buzzer setting and is also displayed on the night-mode NO The indicator follows the saved Web UI and physical-button buzzer setting and is also displayed on the night-mode NO DATA screen. Temporary alarm snoozing does not change the master sound indicator. The user-configurable 5-to-30-minute NO DATA timeout, Nightscout verification, working local alias sequence, OTA progress, trend recovery, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B256.bin",
+  "firmware_size": 1855488,
+  "sha256": "178C7B2A3C834BD063C43BECB27D32BE89E38D89827E365A7F53F3467525B76D"
 }
