@@ -5,12 +5,13 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 264,
+  "build": 265,
   "critical": false,
   "mandatory": false,
-  "release_notes": "Stable B264 release with default safe OTA page.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B264.bin",
+  "release_notes": "B265 final OTA verification build based directly on the stable B264 firmware.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B265.bin",
   "firmware_size": 1864144,
-  "sha256": "C6F4ED3F0012A63CFCDDFB8EFBDE61E5B36B15FB87CDBFC9EDE57E6C4307BB7D"
+  "sha256": "5E544FC6B45C4B0F281190E27A3562A9A972473CB257465FB77203B9FCCE1EE8"
 }
+
 
