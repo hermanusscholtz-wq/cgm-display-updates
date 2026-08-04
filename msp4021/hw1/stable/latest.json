@@ -5,11 +5,12 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 263,
+  "build": 264,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 263 is a revision-only OTA validation release based on the corrected build 262. It contains no functional product changes. It preserves the original setup-required and saved-Wi-Fi behaviour while validating the corrected OTA implementation, which performs the GitHub firmware download from the Arduino main loop rather than a separate OTA FreeRTOS task. HTTP/1.1, manual HTTPS redirect handling, extended TLS timeouts, firmware-size validation, SHA-256 verification, native ESP-IDF partition writing and care-alarm OTA protection remain active.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B263.bin",
-  "firmware_size": 1864480,
-  "sha256": "F6000B30730EE13FB94A49E2D57A6E7311FEF788BDAED8FF07C68E3D3F9A603F"
+  "release_notes": "Stable B264 release with default safe OTA page.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B264.bin",
+  "firmware_size": 1864144,
+  "sha256": "C6F4ED3F0012A63CFCDDFB8EFBDE61E5B36B15FB87CDBFC9EDE57E6C4307BB7D"
 }
+
