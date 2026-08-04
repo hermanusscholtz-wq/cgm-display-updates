@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 258,
+  "build": 261,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 258 is a revision-only OTA diagnostic release. It is functionally identical to build 257 and changes only the firmware build number so the GitHub OTA download can be tested while the Serial Monitor is connected. No display, Nightscout, alarm, trend, Wi-Fi, mDNS, Web UI, buzzer or configuration behaviour has been changed.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B258.bin",
-  "firmware_size": 1856720,
-  "sha256": "88337A072C9283BF2D4A8E2F4636FF79C6EA27FCB1C044F86F14ABF2EB55FAF1"
+  "release_notes": "V14.44 build 261 is a revision-only OTA validation release based on build 260. It retains the proven OLED242-style HTTP/1.1 firmware-download transport, manual HTTPS redirect handling, extended TLS handshake allowance, binary download headers and enhanced Serial diagnostics introduced in build 260. No Nightscout, display, alarm, trend, buzzer, screen-orientation, Wi-Fi, Web UI, mDNS or configuration behaviour has changed.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B261.bin",
+  "firmware_size": 1864320,
+  "sha256": "792BF514013BBC7064BABB9CE3FC8ED6BE24B739E636BFB311057D60357048B4"
 }
