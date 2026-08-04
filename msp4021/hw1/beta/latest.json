@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "beta",
   "latest_version": "14.44",
-  "build": 256,
+  "build": 257,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 256 adds a local sound-status indicator to the bottom-left of the night screen. A green dot with SOUND ON indicates that the local buzzer master is enabled, while a red dot with SOUND OFF indicates that it is disabled. The indicator follows the saved Web UI and physical-button buzzer setting and is also displayed on the night-mode NO The indicator follows the saved Web UI and physical-button buzzer setting and is also displayed on the night-mode NO DATA screen. Temporary alarm snoozing does not change the master sound indicator. The user-configurable 5-to-30-minute NO DATA timeout, Nightscout verification, working local alias sequence, OTA progress, trend recovery, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B256.bin",
-  "firmware_size": 1855488,
-  "sha256": "178C7B2A3C834BD063C43BECB27D32BE89E38D89827E365A7F53F3467525B76D"
+  "release_notes": "V14.44 build 257 adds the screen-orientation selector to the hotspot setup page directly above Device name. The hotspot and main Web UI use the same saved orientation setting. The selected orientation is stored in NVS, applied after setup, and preserved through normal restarts and power cycles. A complete factory reset returns the display to the normal default orientation. The night-screen sound indicator, user-configurable 5-to-30-minute NO DATA timeout, Nightscout verification, working local alias sequence, OTA progress, OTA TLS retry correction, trend recovery, buzzer controls, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/beta/Leah2R_MSP4021_V14_44_B257.bin",
+  "firmware_size": 1880880,
+  "sha256": "F7026B262BFD9B07A17FEE6709522DF4248470F96ACA5B21F897455A93A546B1"
 }
