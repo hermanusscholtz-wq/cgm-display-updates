@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 257,
+  "build": 258,
   "critical": false,
   "mandatory": false,
-  "release_notes": "V14.44 build 257 adds the screen-orientation selector to the hotspot setup page directly above Device name. The hotspot and main Web UI use the same saved orientation setting. The selected orientation is stored in NVS, applied after setup, and preserved through normal restarts and power cycles. A complete factory reset returns the display to the normal default orientation. The night-screen sound indicator, user-configurable 5-to-30-minute NO DATA timeout, Nightscout verification, working local alias sequence, OTA progress, OTA TLS retry correction, trend recovery, buzzer controls, alarms, WhatsApp alerts, IOB, COB and ketone functions remain preserved.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B257.bin",
-  "firmware_size": 1880880,
-  "sha256": "F7026B262BFD9B07A17FEE6709522DF4248470F96ACA5B21F897455A93A546B1"
+  "release_notes": "V14.44 build 258 is a revision-only OTA diagnostic release. It is functionally identical to build 257 and changes only the firmware build number so the GitHub OTA download can be tested while the Serial Monitor is connected. No display, Nightscout, alarm, trend, Wi-Fi, mDNS, Web UI, buzzer or configuration behaviour has been changed.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B258.bin",
+  "firmware_size": 1856720,
+  "sha256": "88337A072C9283BF2D4A8E2F4636FF79C6EA27FCB1C044F86F14ABF2EB55FAF1"
 }
