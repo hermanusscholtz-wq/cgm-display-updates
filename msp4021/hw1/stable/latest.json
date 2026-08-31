@@ -5,13 +5,12 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 265,
+  "build": 273,
   "critical": false,
   "mandatory": false,
-  "release_notes": "B265 final OTA verification build based directly on the stable B264 firmware.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B265.bin",
-  "firmware_size": 1864144,
-  "sha256": "5E544FC6B45C4B0F281190E27A3562A9A972473CB257465FB77203B9FCCE1EE8"
+  "release_notes": "B273 adds provider-aware CGM timing limits and direct-cloud trend backfill. Libre and Dexcom use a 5-minute glucose/history cadence with a minimum 15-minute NO DATA timeout. Nightscout/xDrip retains 1- or 5-minute trend intervals with a minimum 5-minute NO DATA timeout. Libre and Dexcom backfill now populate the existing shared Leah trend memory used by the graph screens.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B273.bin",
+  "firmware_size": 1859568,
+  "sha256": "C50C1B04F65F90839009E59DE63A73444A692D404E24C339F6189FB91EA33C18"
 }
-
 
