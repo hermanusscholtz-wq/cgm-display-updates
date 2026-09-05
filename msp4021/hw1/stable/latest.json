@@ -5,11 +5,11 @@
   "hardware_rev": "hw1",
   "channel": "stable",
   "latest_version": "14.44",
-  "build": 274,
+  "build": 275,
   "critical": false,
   "mandatory": false,
-  "release_notes": "B274 hardens TFT rendering and physical-button handling during LOW and URGENT LOW alarm states. It prevents overlapping TFT write transactions, protects GPIO32 snooze and GPIO33 screen changes, and replaces repeated full-screen night alarm redraws with safer backlight pulsing. CGM providers, trend backfill, alarms, OTA and existing product functions remain unchanged.",
-  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B274.bin",
-  "firmware_size": 1859648,
-  "sha256": "151980AAC81964DF0DF6861C77FC2D041F2930F5CE31A69351ED8B79EB0991A3"
+  "release_notes": "B275 adds a configurable 60-minute local buzzer auto-rearm and uploader-battery audible reminders. When auto-rearm is enabled, a manually disabled buzzer master automatically returns ON after 60 minutes and also restores ON after restart. When auto-rearm is disabled, the buzzer master remains OFF indefinitely. With a valid uploader battery reading, battery below 20% gives a 2-second buzz every 5 minutes, while battery at or below 5% gives a 5-second buzz every 2 minutes. Clinical glucose and NO DATA alarms retain priority. B274 TFT/button safety, multi-CGM support, trend backfill and OTA remain unchanged.",
+  "firmware_url": "https://raw.githubusercontent.com/hermanusscholtz-wq/cgm-display-updates/main/msp4021/hw1/stable/Leah2R_MSP4021_V14_44_B275.bin",
+  "firmware_size": 1862416,
+  "sha256": "3D716D81774FE40AAB04CB2827DA21C1E8B8C33D33329CB3D039E0FD0D4EAF56"
 }
